@@ -1,0 +1,1034 @@
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></meta>
+<title>Analysis Summary Report</title>
+<link href="bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="dataTables.bootstrap4.min.css"/>
+<link rel="stylesheet" type="text/css" href="summarypage.css"/>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="datatables.js"></script>
+<script type="text/javascript" src="jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript" src="dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" src="highcharts.js"></script>
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="translation-resources.js"></script>
+<script type="text/javascript" src=translation-resources-html_de.js></script>
+<script type="text/javascript" src=translation-resources-html_fr.js></script>
+<script type="text/javascript" src=translation-resources-html_ja.js></script>
+<script type="text/javascript" src=translation-resources-html_ko.js></script>
+<script type="text/javascript" src=translation-resources-html_ru.js></script>
+<script type="text/javascript" src=translation-resources-html_zh_CN.js></script>
+<script type="text/javascript" src="summarypage.js"></script>
+<script type="text/javascript" src="translation-nav.js"></script>
+<script type="text/javascript" src="translation-engine.js"></script>
+</head>
+<body class="main">
+        <div id="loading" class="loader">
+        </div>
+        <div id="mainContainer" class="container-fluid hidden pt-1">
+
+
+        <div class="flex flex-top rectangle-top align-items-center ml-0 mr-0">
+        <div class="pl-2 pr-2 item border-right top-section run-time">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Calendar.svg" class="top-icon-calendar">
+        </div>
+        <div class="p-2 item">
+        <div class="scenario-settings-data">29/01/2021     23:27:14</div>
+        <div class="scenario-settings-title">Run Time</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="pl-2 pr-2 item border-right top-section duration">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Time.svg" class="top-icon-time">
+        </div>
+        <div class="p-2 item">
+        <div class="scenario-settings-data">9m: 25s</div>
+        <div class="scenario-settings-title">Duration</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="pl-2 pr-2 item border-right top-section scenario-name">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Project.svg" class="top-icon-project">
+        </div>
+        <div class="p-2 item min-width">
+        <div class="scenario-settings-data" id="sp-tooltip">controller-aos-web-html</div>
+        <div class="scenario-settings-title">Scenario Name</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="pl-2 pr-2 item border-right top-section result-name">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Test.svg" class="top-icon-test">
+        </div>
+        <div class="p-2 item min-width">
+        <div class="scenario-settings-data" id="rt-tooltip">res</div>
+        <div class="scenario-settings-title">Result Name</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="p-2 item top-section sla-section">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img id="SLAIcon" src="Icons_SLA.svg" class="top-icon-sla">
+        </div>
+        <div class="p-2 item">
+        <div class="scenario-settings-data" id="SLAStatus">Defined</div>
+        <div class="scenario-settings-title">SLA</div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="mt-1"><div class="notes-placeholder"></div></div>
+        <div class="margin-top-25">
+        <div class="flex flex-top">
+
+
+        <div class="item scheduler flex-grow">
+        <div><div id=SchedulerGraphData class=hidden>
+<div id=GroupCount class=hidden>12</div>
+  <table id="Values_0" title="chicago">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>15</td><td>2</td>
+  </tr>
+
+  <tr>
+    <td>30</td><td>3</td>
+  </tr>
+
+  <tr>
+    <td>45</td><td>4</td>
+  </tr>
+
+  <tr>
+    <td>60</td><td>5</td>
+  </tr>
+
+  <tr>
+    <td>75</td><td>6</td>
+  </tr>
+
+  <tr>
+    <td>90</td><td>7</td>
+  </tr>
+
+  <tr>
+    <td>105</td><td>8</td>
+  </tr>
+
+  <tr>
+    <td>120</td><td>9</td>
+  </tr>
+
+  <tr>
+    <td>135</td><td>10</td>
+  </tr>
+
+  <tr>
+    <td>435</td><td>10</td>
+  </tr>
+
+  <tr>
+    <td>435</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_1" title="denver">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>10</td><td>2</td>
+  </tr>
+
+  <tr>
+    <td>20</td><td>3</td>
+  </tr>
+
+  <tr>
+    <td>30</td><td>4</td>
+  </tr>
+
+  <tr>
+    <td>40</td><td>5</td>
+  </tr>
+
+  <tr>
+    <td>50</td><td>6</td>
+  </tr>
+
+  <tr>
+    <td>60</td><td>7</td>
+  </tr>
+
+  <tr>
+    <td>70</td><td>8</td>
+  </tr>
+
+  <tr>
+    <td>80</td><td>9</td>
+  </tr>
+
+  <tr>
+    <td>90</td><td>10</td>
+  </tr>
+
+  <tr>
+    <td>390</td><td>10</td>
+  </tr>
+
+  <tr>
+    <td>390</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_2" title="seattle">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>5</td><td>2</td>
+  </tr>
+
+  <tr>
+    <td>10</td><td>3</td>
+  </tr>
+
+  <tr>
+    <td>15</td><td>4</td>
+  </tr>
+
+  <tr>
+    <td>20</td><td>5</td>
+  </tr>
+
+  <tr>
+    <td>25</td><td>6</td>
+  </tr>
+
+  <tr>
+    <td>30</td><td>7</td>
+  </tr>
+
+  <tr>
+    <td>35</td><td>8</td>
+  </tr>
+
+  <tr>
+    <td>40</td><td>9</td>
+  </tr>
+
+  <tr>
+    <td>45</td><td>10</td>
+  </tr>
+
+  <tr>
+    <td>345</td><td>10</td>
+  </tr>
+
+  <tr>
+    <td>345</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_3" title="toronto">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>20</td><td>2</td>
+  </tr>
+
+  <tr>
+    <td>40</td><td>3</td>
+  </tr>
+
+  <tr>
+    <td>60</td><td>4</td>
+  </tr>
+
+  <tr>
+    <td>80</td><td>5</td>
+  </tr>
+
+  <tr>
+    <td>100</td><td>6</td>
+  </tr>
+
+  <tr>
+    <td>120</td><td>7</td>
+  </tr>
+
+  <tr>
+    <td>140</td><td>8</td>
+  </tr>
+
+  <tr>
+    <td>160</td><td>9</td>
+  </tr>
+
+  <tr>
+    <td>180</td><td>10</td>
+  </tr>
+
+  <tr>
+    <td>480</td><td>10</td>
+  </tr>
+
+  <tr>
+    <td>480</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_4" title="denver_nv1">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_5" title="denver_nv2">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_6" title="chicago_nv1">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_7" title="chicago_nv2">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_8" title="seattle_nv1">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_9" title="seattle_nv2">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_10" title="toronto_nv1">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>0</td>
+  </tr>
+
+
+  </table>
+  <table id="Values_11" title="toronto_nv2">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>300</td><td>0</td>
+  </tr>
+
+
+  </table>
+</div>
+<div id=SchedulerGraph class=scheduler-graph>
+</div>
+</div>
+        </div>
+
+
+        <div class="pl-5 item statistics-pane flex flex-top-column">
+        <div class="p-2 mt-1 item header1">STATISTICS</div>
+        <div class="p-2 item flex flex-top flex-grow">
+
+
+        <div class="pr-2 flex flex-top-column item statistic-column">
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("VuserStateGraph")'>Maximum Running Vusers</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("Throughput")'>Total Throughput (bytes)</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("Throughput")'>Average Throughput (B/s)</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("HitsperSecond")'>Total Hits:</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("HitsperSecond")'>Average Hits per Second</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("TransactionSummary")'>Passed Transactions Ratio</a></div>
+        </div>
+
+
+        <div class="pr-2 flex flex-top-column item statistic-column">
+        <div class="item sla-status pr-1 placeholder flex-grow"></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        </div>
+
+
+        <div class="flex flex-top-column item statistic-column">
+        <div headers="LraMaximumRunningVusers" class="item statistic-values flex-grow">40</div>
+        <div headers="LraTotalThroughput" class="item statistic-values flex-grow">3.18130633E9</div>
+        <div headers="LraAverageThroughput" class="item statistic-values flex-grow">5,620,682.57</div>
+        <div headers="LraTotalHits" class="item statistic-values flex-grow">39,669</div>
+        <div headers="LraAverageHitsPerSecond" class="item statistic-values flex-grow">70.087</div>
+        <div headers="LraAverageHitsPerSecond" class="item statistic-values flex-grow">94.164</div>
+        </div>
+        </div>
+
+
+        </div>
+        </div>
+        </div>
+
+
+        <div id="SLA-title" class="row margin-top-35 hidden">
+        <div class="col">
+        <div class="sla-title">SCENARIO BEHAVIOR OVER TIME</div>
+        </div>
+        </div>
+
+
+        <div id="SLA-description" class="row margin-top-12 hidden">
+        <div class="col">
+        <div class="sla-description">The SLA status of the following measurements displayed over time</div>
+        </div>
+        </div>
+
+
+
+        <div class="row margin-top-35">
+        <div class="col">
+        <div class="header1" id="transactionsTitle">TRANSACTIONS</div>
+        </div>
+        </div>
+
+
+        <div class="row">
+        <div class="col">
+
+
+<table id="TransactionSummaryTable" class="table"  >
+<thead><tr  class="hidden" >
+        <th id="Lra" vAlign="top"><span class="Verdana2"></span></th>
+        <th id="LraPassed&nbsp;" vAlign="top"><span class="Verdana2">Passed&nbsp;</span></th>
+        <th id="LraFailed&nbsp;" vAlign="top"><span class="Verdana2">Failed&nbsp;</span></th>
+        <th id="LraStopped&nbsp;" vAlign="top"><span class="Verdana2">Stopped&nbsp;</span></th>
+</tr></thead><tbody>      <tr bgcolor="">
+        <td headers="Lra" class="styling_2">        <div>TOTAL</div></td>
+        <td headers="LraPassed&nbsp;" class="styling_2">        <div>1,775</div></td>
+        <td headers="LraFailed&nbsp;" class="styling_2">        <div>110</div></td>
+        <td headers="LraStopped&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr class="hidden NVB_TOTAL ">
+        <td headers="Lra" class="styling_1"><span class="styling_4">2.5G Busy</td>
+        <td headers="LraPassed&nbsp;" class="styling_2"><span class="styling_4">150</td>
+        <td headers="LraFailed&nbsp;" class="styling_2"><span class="styling_4">56</td>
+        <td headers="LraStopped&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_TOTAL ">
+        <td headers="Lra" class="styling_1"><span class="styling_4">3G Typical</td>
+        <td headers="LraPassed&nbsp;" class="styling_2"><span class="styling_4">155</td>
+        <td headers="LraFailed&nbsp;" class="styling_2"><span class="styling_4">54</td>
+        <td headers="LraStopped&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_TOTAL ">
+        <td headers="Lra" class="styling_1"><span class="styling_4">4G Good</td>
+        <td headers="LraPassed&nbsp;" class="styling_2"><span class="styling_4">630</td>
+        <td headers="LraFailed&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStopped&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_TOTAL ">
+        <td headers="Lra" class="styling_1"><span class="styling_4">None</td>
+        <td headers="LraPassed&nbsp;" class="styling_2"><span class="styling_4">840</td>
+        <td headers="LraFailed&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStopped&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+</tbody>
+
+</table> 
+
+        </div>
+        </div>
+
+
+<table id="TransactionsTable" class="table table-responsive-xl" summary="Transactions statistics summary table"  >
+<thead><tr  bgcolor="" >
+        <th id="LraTransaction Name&nbsp;" vAlign="top"><span class="Verdana2">Transaction Name&nbsp;</span></th>
+<th id="Status" class="table_header" vAlign="top" width="80"><span class="Verdana2">SLA Status</span></th><th id="SLA-Additional1" class="table_header" vAlign="top" width="80"><span class="Verdana2"><span>Goal</span></th><th id="SLA-Additional2" class="table_header" vAlign="top" width="80"><span class="Verdana2"><span>Violation(%)</span></th>        <th id="LraMinimum&nbsp;" vAlign="top"><span class="Verdana2">Minimum&nbsp;</span></th>
+        <th id="LraAverage&nbsp;" vAlign="top"><span class="Verdana2">Average&nbsp;</span></th>
+        <th id="LraMaximum&nbsp;" vAlign="top"><span class="Verdana2">Maximum&nbsp;</span></th>
+        <th id="LraStd. Deviation&nbsp;" vAlign="top"><span class="Verdana2">Std. Deviation&nbsp;</span></th>
+        <th id="Lra90 Percent&nbsp;" vAlign="top"><span class="Verdana2">90 Percent&nbsp;</span></th>
+        <th id="LraPass&nbsp;" vAlign="top"><span class="Verdana2">Pass&nbsp;</span></th>
+        <th id="LraFail&nbsp;" vAlign="top"><span class="Verdana2">Fail&nbsp;</span></th>
+        <th id="LraStop&nbsp;" vAlign="top"><span class="Verdana2">Stop&nbsp;</span></th>
+</tr></thead><tbody>      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(1:BUFFERING)0000")' span class="VerBluUnd7">1:BUFFERING</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+<td>0</td><td>0</td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0.997</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>1.002</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>1.033</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0.003</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1.007</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>355</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr class="hidden NVB_1:BUFFERING ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">2.5G Busy</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.998</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">1.001</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">1.01</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.003</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">1.002</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">30</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_1:BUFFERING ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">3G Typical</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.999</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">1.001</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">1.002</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.001</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">1.001</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">31</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_1:BUFFERING ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">4G Good</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.999</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">1.002</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">1.01</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.003</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">1.009</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">126</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_1:BUFFERING ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">None</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.997</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">1.002</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">1.033</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.004</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">1.008</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">168</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(1:DOWNLOAD)0000")' span class="VerBluUnd7">1:DOWNLOAD</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+<td>0</td><td>0</td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0.046</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0.433</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>1.153</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0.461</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1.14</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>355</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr class="hidden NVB_1:DOWNLOAD ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">2.5G Busy</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.048</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">0.065</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">0.106</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.014</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">0.084</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">30</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_1:DOWNLOAD ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">3G Typical</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.053</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">0.076</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">0.131</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.021</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">0.109</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">31</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_1:DOWNLOAD ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">4G Good</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.046</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">0.582</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">1.153</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.534</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">1.144</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">126</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_1:DOWNLOAD ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">None</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.046</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">0.453</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">1.07</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.412</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">1.058</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">168</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(Browse-Catalog)0000")' span class="VerBluUnd7">Browse-Catalog</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+<td>0</td><td>0</td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0.07</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0.939</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>4.967</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>1.314</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>3.413</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>355</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>55</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr class="hidden NVB_Browse-Catalog ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">2.5G Busy</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.074</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">0.116</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">0.224</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">59.911</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">0.18</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">30</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">28</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_Browse-Catalog ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">3G Typical</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.07</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">0.108</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">0.187</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">59.807</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">0.138</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">31</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">27</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_Browse-Catalog ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">4G Good</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.073</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">1.766</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">4.967</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">1.822</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">4.3</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">126</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_Browse-Catalog ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">None</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">0.07</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">0.619</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">1.543</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.541</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">1.353</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">168</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(Check-Accounts)0000")' span class="VerBluUnd7">Check-Accounts</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+<td>0</td><td>0</td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>7.527</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>9.524</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>13.973</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>1.225</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>10.734</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>355</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr class="hidden NVB_Check-Accounts ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">2.5G Busy</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">11.792</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">12.588</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">13.973</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.485</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">12.891</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">30</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_Check-Accounts ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">3G Typical</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">8.993</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">10.128</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">11.178</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.462</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">10.405</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">31</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_Check-Accounts ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">4G Good</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">8.089</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">9.807</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">10.861</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.732</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">10.704</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">126</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_Check-Accounts ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">None</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">7.527</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">8.653</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">9.801</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.356</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">8.891</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">168</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(Full-Process)0000")' span class="VerBluUnd7">Full-Process</td>
+<td><img src="Status_Failed.svg"><div class="hidden">2</div></td>
+<td>13</td><td>6.477%</td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>7.636</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>10.466</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>15.567</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>1.985</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>13.842</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>355</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>55</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr class="hidden NVB_Full-Process ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">2.5G Busy</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">11.893</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">12.71</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">14.093</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">53.619</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">13.025</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">30</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">28</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_Full-Process ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">3G Typical</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">9.082</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">10.241</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">11.351</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">54.754</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">10.527</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">31</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">27</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_Full-Process ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">4G Good</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">8.188</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">11.575</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">15.567</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">2.44</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">14.952</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">126</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+      <tr class="hidden NVB_Full-Process ">
+        <td headers="LraTransaction Name&nbsp;" class="styling_1"><span class="styling_4">None</td>
+<td></td>
+<td></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2"><span class="styling_4">7.636</td>
+        <td headers="LraAverage&nbsp;" class="styling_2"><span class="styling_4">9.276</td>
+        <td headers="LraMaximum&nbsp;" class="styling_2"><span class="styling_4">10.39</td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2"><span class="styling_4">0.729</td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2"><span class="styling_4">10.197</td>
+        <td headers="LraPass&nbsp;" class="styling_2"><span class="styling_4">168</td>
+        <td headers="LraFail&nbsp;" class="styling_2"><span class="styling_4">0</td>
+        <td headers="LraStop&nbsp;" class="styling_2"><span class="styling_4">0</td>
+      </tr>
+</tbody>
+
+</table> 
+
+<a name="HTTP_Responses_Summary"></a>
+<table id="HTTPCodesTable" class="table table-responsive-xl margin-bottom-20"  >
+<thead><tr  bgcolor="" >
+        <th id="LraCodes&nbsp;" vAlign="top"><span class="Verdana2">Codes&nbsp;</span></th>
+        <th id="LraTotal&nbsp;" vAlign="top"><span class="Verdana2">Total&nbsp;</span></th>
+        <th id="LraPer second&nbsp;" vAlign="top"><span class="Verdana2">Per second&nbsp;</span></th>
+</tr></thead><tbody>      <tr bgcolor="">
+        <td headers="LraCodes&nbsp;" class="styling_2">        <div>HTTP_200</div></td>
+        <td headers="LraTotal&nbsp;" class="styling_2">        <div>38,025</div></td>
+        <td headers="LraPer second&nbsp;" class="styling_2">        <div>67.182</div></td>
+      </tr>
+      <tr class="hidden NVB_HTTP_200 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">2.5G Busy</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">4,399</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">7.772</td>
+      </tr>
+      <tr class="hidden NVB_HTTP_200 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">3G Typical</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">5,328</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">9.413</td>
+      </tr>
+      <tr class="hidden NVB_HTTP_200 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">4G Good</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">12,279</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">21.694</td>
+      </tr>
+      <tr class="hidden NVB_HTTP_200 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">None</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">16,019</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">28.302</td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraCodes&nbsp;" class="styling_2">        <div>HTTP_404</div></td>
+        <td headers="LraTotal&nbsp;" class="styling_2">        <div>710</div></td>
+        <td headers="LraPer second&nbsp;" class="styling_2">        <div>1.254</div></td>
+      </tr>
+      <tr class="hidden NVB_HTTP_404 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">2.5G Busy</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">60</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">0.106</td>
+      </tr>
+      <tr class="hidden NVB_HTTP_404 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">3G Typical</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">62</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">0.11</td>
+      </tr>
+      <tr class="hidden NVB_HTTP_404 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">4G Good</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">252</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">0.445</td>
+      </tr>
+      <tr class="hidden NVB_HTTP_404 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">None</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">336</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">0.594</td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraCodes&nbsp;" class="styling_2">        <div>HTTP_500</div></td>
+        <td headers="LraTotal&nbsp;" class="styling_2">        <div>934</div></td>
+        <td headers="LraPer second&nbsp;" class="styling_2">        <div>1.65</div></td>
+      </tr>
+      <tr class="hidden NVB_HTTP_500 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">2.5G Busy</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">139</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">0.246</td>
+      </tr>
+      <tr class="hidden NVB_HTTP_500 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">3G Typical</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">131</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">0.231</td>
+      </tr>
+      <tr class="hidden NVB_HTTP_500 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">4G Good</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">286</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">0.505</td>
+      </tr>
+      <tr class="hidden NVB_HTTP_500 ">
+        <td headers="LraCodes&nbsp;" class="styling_1"><span class="styling_4">None</td>
+        <td headers="LraTotal&nbsp;" class="styling_2"><span class="styling_4">378</td>
+        <td headers="LraPer second&nbsp;" class="styling_2"><span class="styling_4">0.668</td>
+      </tr>
+</tbody>
+
+</table> 
+
+        </div>
+
+
+<table  >
+      <div>
+
+
+      </div>
+</table> 
+
+</body></html>
+

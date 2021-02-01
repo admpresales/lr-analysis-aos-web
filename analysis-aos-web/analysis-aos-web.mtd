@@ -1,0 +1,7029 @@
+﻿[General]
+TableCount=19
+
+[Table_0]
+FactTableName=Breakdown_meter
+DimensionCount=25
+
+[Breakdown_meter_Dim0]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Breakdown_map
+NumValues=7
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=7
+Dim_0=APPLICATION
+Dim_1=FONT
+Dim_2=IMAGE
+Dim_3=Page
+Dim_4=Resource
+Dim_5=TEXT
+Dim_6=VIDEO
+LikeMode=0
+
+[Breakdown_meter_Dim1]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Breakdown_map
+NumValues=248
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=248
+Dim_0=accounts...&json=standard
+Dim_1=accounts...&json=standard (main URL)
+Dim_2=advant....com/main.min.js
+Dim_3=advant.../arrow_right.png
+Dim_4=advant.../images/GoUp.png
+Dim_5=advant.../images/logo.png
+Dim_6=advant...ages/Banner1.jpg
+Dim_7=advant...ages/Banner2.jpg
+Dim_8=advant...ages/Banner3.jpg
+Dim_9=advant...ages/SafePay.png
+Dim_10=advant...ages/twitter.png
+Dim_11=advant...css/main.min.css
+Dim_12=advant...es/chat_logo.png
+Dim_13=advant...es/closeDark.png
+Dim_14=advant...es/Special-offer.jpg
+Dim_15=advant...ges/facebook.png
+Dim_16=advant...ges/linkedin.png
+Dim_17=advant...irejs/require.js
+Dim_18=advant...mages/Filter.png
+Dim_19=advant...ng.com/app/views
+Dim_20=advant...s/Down_arrow.svg
+Dim_21=advant...s/reviewUser.png
+Dim_22=advantag...?image_id=1100
+Dim_23=advantag...?image_id=1200
+Dim_24=advantag...?image_id=1234
+Dim_25=advantag...?image_id=1235
+Dim_26=advantag...?image_id=1236
+Dim_27=advantag...?image_id=1237
+Dim_28=advantag...?image_id=1238
+Dim_29=advantag...?image_id=1245
+Dim_30=advantag...?image_id=1249
+Dim_31=advantag...?image_id=1250
+Dim_32=advantag...?image_id=1300
+Dim_33=advantag...?image_id=1400
+Dim_34=advantag...?image_id=1600
+Dim_35=advantag...?image_id=1700
+Dim_36=advantag...?image_id=1800
+Dim_37=advantag...?image_id=2100
+Dim_38=advantag...?image_id=2200
+Dim_39=advantag...?image_id=2201
+Dim_40=advantag...?image_id=2300
+Dim_41=advantag...?image_id=2400
+Dim_42=advantag...?image_id=3100
+Dim_43=advantag...?image_id=3101
+Dim_44=advantag...?image_id=3102
+Dim_45=advantag...?image_id=3103
+Dim_46=advantag...?image_id=3200
+Dim_47=advantag...?image_id=3300
+Dim_48=advantag...?image_id=4100
+Dim_49=advantag...?image_id=4200
+Dim_50=advantag...?image_id=4300
+Dim_51=advantag...?image_id=4400
+Dim_52=advantag...?image_id=4500
+Dim_53=advantag...?image_id=4600
+Dim_54=advantag...?image_id=4700
+Dim_55=advantag...?image_id=5100
+Dim_56=advantag...?image_id=5200
+Dim_57=advantag...?image_id=5300
+Dim_58=advantag...?image_id=5400
+Dim_59=advantag...?image_id=5505
+Dim_60=advantag...?image_id=5600
+Dim_61=advantag...?image_id=5700
+Dim_62=advantag...?image_id=5800
+Dim_63=advantag...?image_id=5900
+Dim_64=advantag...10005144_n.mp4
+Dim_65=advantag...10005144_n.mp4 (main URL)
+Dim_66=advantag...cebookLogo.png
+Dim_67=advantag...ces.properties
+Dim_68=advantag...cial-offer.jpg
+Dim_69=advantag...d-webfont.woff
+Dim_70=advantag...image_id=11100
+Dim_71=advantag...m-webfont.woff
+Dim_72=advantag...n-webfont.woff
+Dim_73=advantag...r-webfont.woff
+Dim_74=advantag...t_disabled.png
+Dim_75=advantag...ter_credit.png
+Dim_76=advantag...t-webfont.woff
+Dim_77=advantag...ular-item1.jpg
+Dim_78=advantag...ular-item2.jpg
+Dim_79=advantag...ular-item3.jpg
+Dim_80=advantag...urationRequest
+Dim_81=advantag...urationRequest (main URL)
+Dim_82=advantag...view_right.png
+Dim_83=advantag...y_banner_1.png
+Dim_84=advantag...y_banner_2.png
+Dim_85=advantag...y_banner_3.png
+Dim_86=advantag...y_banner_4.png
+Dim_87=advantag...y_banner_5.png
+Dim_88=nimbus.../arrow_right.png
+Dim_89=nimbus.../images/GoUp.png
+Dim_90=nimbus.../images/logo.png
+Dim_91=nimbus...8000/main.min.js
+Dim_92=nimbus...ages/Banner1.jpg
+Dim_93=nimbus...ages/Banner2.jpg
+Dim_94=nimbus...ages/Banner3.jpg
+Dim_95=nimbus...ages/SafePay.png
+Dim_96=nimbus...ages/twitter.png
+Dim_97=nimbus...css/main.min.css
+Dim_98=nimbus...egories/all_data
+Dim_99=nimbus...egories/all_data (main URL)
+Dim_100=nimbus...es/chat_logo.png
+Dim_101=nimbus...es/closeDark.png
+Dim_102=nimbus...es/Special-offer.jpg
+Dim_103=nimbus...ges/facebook.png
+Dim_104=nimbus...ges/linkedin.png
+Dim_105=nimbus...irejs/require.js
+Dim_106=nimbus...m:8000/app/views
+Dim_107=nimbus...mages/Filter.png
+Dim_108=nimbus...ories/attributes
+Dim_109=nimbus...ories/attributes (main URL)
+Dim_110=nimbus...pi/v1/categories
+Dim_111=nimbus...pi/v1/categories (main URL)
+Dim_112=nimbus...s/Down_arrow.svg
+Dim_113=nimbus...s/home-page.html
+Dim_114=nimbus...s/home-page.html (main URL)
+Dim_115=nimbus...s/reviewUser.png
+Dim_116=nimbus...ters/by_tool/ALL
+Dim_117=nimbus...ters/by_tool/ALL (main URL)
+Dim_118=nimbusse...?image_id=1100
+Dim_119=nimbusse...?image_id=1200
+Dim_120=nimbusse...?image_id=1234
+Dim_121=nimbusse...?image_id=1235
+Dim_122=nimbusse...?image_id=1236
+Dim_123=nimbusse...?image_id=1237
+Dim_124=nimbusse...?image_id=1238
+Dim_125=nimbusse...?image_id=1245
+Dim_126=nimbusse...?image_id=1249
+Dim_127=nimbusse...?image_id=1250
+Dim_128=nimbusse...?image_id=1300
+Dim_129=nimbusse...?image_id=1400
+Dim_130=nimbusse...?image_id=1600
+Dim_131=nimbusse...?image_id=1700
+Dim_132=nimbusse...?image_id=1800
+Dim_133=nimbusse...?image_id=2100
+Dim_134=nimbusse...?image_id=2200
+Dim_135=nimbusse...?image_id=2201
+Dim_136=nimbusse...?image_id=2300
+Dim_137=nimbusse...?image_id=2400
+Dim_138=nimbusse...?image_id=3100
+Dim_139=nimbusse...?image_id=3101
+Dim_140=nimbusse...?image_id=3102
+Dim_141=nimbusse...?image_id=3103
+Dim_142=nimbusse...?image_id=3200
+Dim_143=nimbusse...?image_id=3300
+Dim_144=nimbusse...?image_id=4100
+Dim_145=nimbusse...?image_id=4200
+Dim_146=nimbusse...?image_id=4300
+Dim_147=nimbusse...?image_id=4400
+Dim_148=nimbusse...?image_id=4500
+Dim_149=nimbusse...?image_id=4600
+Dim_150=nimbusse...?image_id=4700
+Dim_151=nimbusse...?image_id=5100
+Dim_152=nimbusse...?image_id=5200
+Dim_153=nimbusse...?image_id=5300
+Dim_154=nimbusse...?image_id=5400
+Dim_155=nimbusse...?image_id=5505
+Dim_156=nimbusse...?image_id=5600
+Dim_157=nimbusse...?image_id=5700
+Dim_158=nimbusse...?image_id=5800
+Dim_159=nimbusse...?image_id=5900
+Dim_160=nimbusse...10005144_n.mp4
+Dim_161=nimbusse...10005144_n.mp4 (main URL)
+Dim_162=nimbusse...cebookLogo.png
+Dim_163=nimbusse...ces.properties
+Dim_164=nimbusse...cial-offer.jpg
+Dim_165=nimbusse...duct-page.html
+Dim_166=nimbusse...duct-page.html (main URL)
+Dim_167=nimbusse...d-webfont.woff
+Dim_168=nimbusse...gory-page.html
+Dim_169=nimbusse...gory-page.html (main URL)
+Dim_170=nimbusse...image_id=11100
+Dim_171=nimbusse...lOfTheDay=true
+Dim_172=nimbusse...lOfTheDay=true (main URL)
+Dim_173=nimbusse...m-webfont.woff
+Dim_174=nimbusse...n-webfont.woff
+Dim_175=nimbusse...opularComments
+Dim_176=nimbusse...opularComments (main URL)
+Dim_177=nimbusse...ppingCart.html
+Dim_178=nimbusse...ppingCart.html (main URL)
+Dim_179=nimbusse...rProducts.json
+Dim_180=nimbusse...rProducts.json (main URL)
+Dim_181=nimbusse...r-webfont.woff
+Dim_182=nimbusse...t_disabled.png
+Dim_183=nimbusse...ter_credit.png
+Dim_184=nimbusse...t-webfont.woff
+Dim_185=nimbusse...ular-item1.jpg
+Dim_186=nimbusse...ular-item2.jpg
+Dim_187=nimbusse...ular-item3.jpg
+Dim_188=nimbusse...urationRequest
+Dim_189=nimbusse...urationRequest (main URL)
+Dim_190=nimbusse...view_right.png
+Dim_191=nimbusse...y_banner_1.png
+Dim_192=nimbusse...y_banner_2.png
+Dim_193=nimbusse...y_banner_3.png
+Dim_194=nimbusse...y_banner_4.png
+Dim_195=nimbusse...y_banner_5.png
+Dim_196=nimbusserver.aos.com:8000
+Dim_197=nimbusserver.aos.com:8000 (main URL)
+Dim_198=web_s...m_open_Action_328
+Dim_199=www.go...com/analytics.js
+Dim_200=www.goog...=1&z=276360492
+Dim_201=www.goog...=1&z=663823616
+Dim_202=www.goog...26&z=100145304
+Dim_203=www.goog...26&z=142266463
+Dim_204=www.goog...26&z=321497195
+Dim_205=www.goog...26&z=322602817
+Dim_206=www.goog...26&z=347314596
+Dim_207=www.goog...26&z=353078723
+Dim_208=www.goog...26&z=406373490
+Dim_209=www.goog...26&z=608058753
+Dim_210=www.goog...26&z=653037235
+Dim_211=www.goog...26&z=840738254
+Dim_212=www.goog...6&z=1001479239
+Dim_213=www.goog...6&z=1004336998
+Dim_214=www.goog...6&z=1015158186
+Dim_215=www.goog...6&z=1122523835
+Dim_216=www.goog...6&z=1128941753
+Dim_217=www.goog...6&z=1156862858
+Dim_218=www.goog...6&z=1336317741
+Dim_219=www.goog...6&z=1356762777
+Dim_220=www.goog...6&z=1643116590
+Dim_221=www.goog...6&z=1678708688
+Dim_222=www.goog...6&z=1936507868
+Dim_223=www.goog...6&z=2005874632
+Dim_224=www.google..._r=1&z=276360492
+Dim_225=www.google..._r=1&z=663823616
+Dim_226=www.google...8926&z=100145304
+Dim_227=www.google...8926&z=142266463
+Dim_228=www.google...8926&z=321497195
+Dim_229=www.google...8926&z=322602817
+Dim_230=www.google...8926&z=347314596
+Dim_231=www.google...8926&z=353078723
+Dim_232=www.google...8926&z=406373490
+Dim_233=www.google...8926&z=608058753
+Dim_234=www.google...8926&z=653037235
+Dim_235=www.google...8926&z=840738254
+Dim_236=www.google...926&z=1001479239
+Dim_237=www.google...926&z=1004336998
+Dim_238=www.google...926&z=1015158186
+Dim_239=www.google...926&z=1122523835
+Dim_240=www.google...926&z=1128941753
+Dim_241=www.google...926&z=1156862858
+Dim_242=www.google...926&z=1336317741
+Dim_243=www.google...926&z=1356762777
+Dim_244=www.google...926&z=1643116590
+Dim_245=www.google...926&z=1678708688
+Dim_246=www.google...926&z=1936507868
+Dim_247=www.google...926&z=2005874632
+LikeMode=0
+
+[Breakdown_meter_Dim2]
+InternalDimName=Connection
+Dimension=Connection
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=13.657000
+
+[Breakdown_meter_Dim3]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=248
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=744
+Dim_0=0.091238
+Dim_1=3.114250
+Dim_2=accounts...&json=standard
+Dim_3=0.091413
+Dim_4=3.114383
+Dim_5=accounts...&json=standard (main URL)
+Dim_6=0.007119
+Dim_7=118.681459
+Dim_8=advant....com/main.min.js
+Dim_9=0.015948
+Dim_10=0.758845
+Dim_11=advant.../arrow_right.png
+Dim_12=0.003511
+Dim_13=4.626549
+Dim_14=advant.../images/GoUp.png
+Dim_15=0.015877
+Dim_16=1.456666
+Dim_17=advant.../images/logo.png
+Dim_18=0.002712
+Dim_19=89.273219
+Dim_20=advant...ages/Banner1.jpg
+Dim_21=0.003183
+Dim_22=75.569349
+Dim_23=advant...ages/Banner2.jpg
+Dim_24=0.001107
+Dim_25=56.090037
+Dim_26=advant...ages/Banner3.jpg
+Dim_27=0.055720
+Dim_28=0.140631
+Dim_29=advant...ages/SafePay.png
+Dim_30=0.002833
+Dim_31=1.396061
+Dim_32=advant...ages/twitter.png
+Dim_33=0.006720
+Dim_34=67.224903
+Dim_35=advant...css/main.min.css
+Dim_36=0.054904
+Dim_37=0.187681
+Dim_38=advant...es/chat_logo.png
+Dim_39=0.015918
+Dim_40=0.859729
+Dim_41=advant...es/closeDark.png
+Dim_42=0.055273
+Dim_43=0.188243
+Dim_44=advant...es/Special-offer.jpg
+Dim_45=0.004450
+Dim_46=3.601205
+Dim_47=advant...ges/facebook.png
+Dim_48=0.003236
+Dim_49=15.958236
+Dim_50=advant...ges/linkedin.png
+Dim_51=0.001633
+Dim_52=24.110095
+Dim_53=advant...irejs/require.js
+Dim_54=0.002723
+Dim_55=1.596520
+Dim_56=advant...mages/Filter.png
+Dim_57=0.055338
+Dim_58=0.280234
+Dim_59=advant...ng.com/app/views
+Dim_60=0.002327
+Dim_61=2.631290
+Dim_62=advant...s/Down_arrow.svg
+Dim_63=0.055222
+Dim_64=0.277363
+Dim_65=advant...s/reviewUser.png
+Dim_66=0.000943
+Dim_67=0.322800
+Dim_68=advantag...?image_id=1100
+Dim_69=0.001201
+Dim_70=0.402997
+Dim_71=advantag...?image_id=1200
+Dim_72=0.057282
+Dim_73=0.659565
+Dim_74=advantag...?image_id=1234
+Dim_75=0.059289
+Dim_76=1.323571
+Dim_77=advantag...?image_id=1235
+Dim_78=0.058087
+Dim_79=1.336888
+Dim_80=advantag...?image_id=1236
+Dim_81=0.004381
+Dim_82=1.329393
+Dim_83=advantag...?image_id=1237
+Dim_84=0.058440
+Dim_85=1.324781
+Dim_86=advantag...?image_id=1238
+Dim_87=0.001131
+Dim_88=0.248664
+Dim_89=advantag...?image_id=1245
+Dim_90=0.001387
+Dim_91=5.747831
+Dim_92=advantag...?image_id=1249
+Dim_93=0.000963
+Dim_94=1.346720
+Dim_95=advantag...?image_id=1250
+Dim_96=0.001777
+Dim_97=0.321966
+Dim_98=advantag...?image_id=1300
+Dim_99=0.001269
+Dim_100=0.243104
+Dim_101=advantag...?image_id=1400
+Dim_102=0.000764
+Dim_103=0.241973
+Dim_104=advantag...?image_id=1600
+Dim_105=0.001109
+Dim_106=3.041627
+Dim_107=advantag...?image_id=1700
+Dim_108=0.001525
+Dim_109=0.190518
+Dim_110=advantag...?image_id=1800
+Dim_111=0.001171
+Dim_112=4.672665
+Dim_113=advantag...?image_id=2100
+Dim_114=0.002768
+Dim_115=6.267726
+Dim_116=advantag...?image_id=2200
+Dim_117=0.001060
+Dim_118=4.022215
+Dim_119=advantag...?image_id=2201
+Dim_120=0.003648
+Dim_121=8.529668
+Dim_122=advantag...?image_id=2300
+Dim_123=0.001385
+Dim_124=31.487540
+Dim_125=advantag...?image_id=2400
+Dim_126=0.001459
+Dim_127=13.360362
+Dim_128=advantag...?image_id=3100
+Dim_129=0.001231
+Dim_130=12.779399
+Dim_131=advantag...?image_id=3101
+Dim_132=0.001229
+Dim_133=5.925560
+Dim_134=advantag...?image_id=3102
+Dim_135=0.001692
+Dim_136=5.908987
+Dim_137=advantag...?image_id=3103
+Dim_138=0.001170
+Dim_139=8.867561
+Dim_140=advantag...?image_id=3200
+Dim_141=0.001166
+Dim_142=7.344642
+Dim_143=advantag...?image_id=3300
+Dim_144=0.004109
+Dim_145=46.445241
+Dim_146=advantag...?image_id=4100
+Dim_147=0.001587
+Dim_148=28.182765
+Dim_149=advantag...?image_id=4200
+Dim_150=0.001361
+Dim_151=15.728994
+Dim_152=advantag...?image_id=4300
+Dim_153=0.004135
+Dim_154=8.478130
+Dim_155=advantag...?image_id=4400
+Dim_156=0.002214
+Dim_157=16.252374
+Dim_158=advantag...?image_id=4500
+Dim_159=0.002696
+Dim_160=26.718566
+Dim_161=advantag...?image_id=4600
+Dim_162=0.001172
+Dim_163=24.533832
+Dim_164=advantag...?image_id=4700
+Dim_165=0.001121
+Dim_166=4.082606
+Dim_167=advantag...?image_id=5100
+Dim_168=0.002222
+Dim_169=9.847426
+Dim_170=advantag...?image_id=5200
+Dim_171=0.001926
+Dim_172=6.705651
+Dim_173=advantag...?image_id=5300
+Dim_174=0.002990
+Dim_175=2.524110
+Dim_176=advantag...?image_id=5400
+Dim_177=0.002017
+Dim_178=6.802828
+Dim_179=advantag...?image_id=5505
+Dim_180=0.000915
+Dim_181=4.045371
+Dim_182=advantag...?image_id=5600
+Dim_183=0.002667
+Dim_184=3.376046
+Dim_185=advantag...?image_id=5700
+Dim_186=0.001016
+Dim_187=3.298650
+Dim_188=advantag...?image_id=5800
+Dim_189=0.000722
+Dim_190=10.721960
+Dim_191=advantag...?image_id=5900
+Dim_192=0.735443
+Dim_193=1.143214
+Dim_194=advantag...10005144_n.mp4
+Dim_195=1.053297
+Dim_196=1.071103
+Dim_197=advantag...10005144_n.mp4 (main URL)
+Dim_198=0.001604
+Dim_199=0.160358
+Dim_200=advantag...cebookLogo.png
+Dim_201=0.008328
+Dim_202=67.625572
+Dim_203=advantag...ces.properties
+Dim_204=0.003437
+Dim_205=54.246833
+Dim_206=advantag...cial-offer.jpg
+Dim_207=0.015773
+Dim_208=11.109441
+Dim_209=advantag...d-webfont.woff
+Dim_210=0.001921
+Dim_211=0.323327
+Dim_212=advantag...image_id=11100
+Dim_213=0.009619
+Dim_214=67.467476
+Dim_215=advantag...m-webfont.woff
+Dim_216=0.016364
+Dim_217=86.466366
+Dim_218=advantag...n-webfont.woff
+Dim_219=0.007646
+Dim_220=118.673478
+Dim_221=advantag...r-webfont.woff
+Dim_222=0.115269
+Dim_223=0.285211
+Dim_224=advantag...t_disabled.png
+Dim_225=0.059735
+Dim_226=0.144114
+Dim_227=advantag...ter_credit.png
+Dim_228=0.109507
+Dim_229=13.617533
+Dim_230=advantag...t-webfont.woff
+Dim_231=0.002959
+Dim_232=28.653974
+Dim_233=advantag...ular-item1.jpg
+Dim_234=0.002938
+Dim_235=14.786201
+Dim_236=advantag...ular-item2.jpg
+Dim_237=0.002666
+Dim_238=56.121317
+Dim_239=advantag...ular-item3.jpg
+Dim_240=0.061794
+Dim_241=1.345085
+Dim_242=advantag...urationRequest
+Dim_243=0.061930
+Dim_244=1.345226
+Dim_245=advantag...urationRequest (main URL)
+Dim_246=0.054536
+Dim_247=0.141818
+Dim_248=advantag...view_right.png
+Dim_249=0.003386
+Dim_250=10.781655
+Dim_251=advantag...y_banner_1.png
+Dim_252=0.001658
+Dim_253=50.075545
+Dim_254=advantag...y_banner_2.png
+Dim_255=0.001477
+Dim_256=69.101878
+Dim_257=advantag...y_banner_3.png
+Dim_258=0.002190
+Dim_259=95.964177
+Dim_260=advantag...y_banner_4.png
+Dim_261=0.002052
+Dim_262=34.863688
+Dim_263=advantag...y_banner_5.png
+Dim_264=0.005520
+Dim_265=0.018083
+Dim_266=nimbus.../arrow_right.png
+Dim_267=0.000832
+Dim_268=0.081185
+Dim_269=nimbus.../images/GoUp.png
+Dim_270=0.000489
+Dim_271=0.017147
+Dim_272=nimbus.../images/logo.png
+Dim_273=0.046006
+Dim_274=1.765579
+Dim_275=nimbus...8000/main.min.js
+Dim_276=0.034525
+Dim_277=0.277081
+Dim_278=nimbus...ages/Banner1.jpg
+Dim_279=0.004255
+Dim_280=0.250345
+Dim_281=nimbus...ages/Banner2.jpg
+Dim_282=0.003008
+Dim_283=0.165469
+Dim_284=nimbus...ages/Banner3.jpg
+Dim_285=0.000432
+Dim_286=0.595256
+Dim_287=nimbus...ages/SafePay.png
+Dim_288=0.001252
+Dim_289=0.081048
+Dim_290=nimbus...ages/twitter.png
+Dim_291=0.017379
+Dim_292=1.170077
+Dim_293=nimbus...css/main.min.css
+Dim_294=0.385196
+Dim_295=1.458919
+Dim_296=nimbus...egories/all_data
+Dim_297=0.385283
+Dim_298=1.461677
+Dim_299=nimbus...egories/all_data (main URL)
+Dim_300=0.000601
+Dim_301=0.001826
+Dim_302=nimbus...es/chat_logo.png
+Dim_303=0.000768
+Dim_304=0.017555
+Dim_305=nimbus...es/closeDark.png
+Dim_306=0.000711
+Dim_307=0.004983
+Dim_308=nimbus...es/Special-offer.jpg
+Dim_309=0.001359
+Dim_310=0.081943
+Dim_311=nimbus...ges/facebook.png
+Dim_312=0.000899
+Dim_313=0.084768
+Dim_314=nimbus...ges/linkedin.png
+Dim_315=0.010849
+Dim_316=1.167615
+Dim_317=nimbus...irejs/require.js
+Dim_318=0.000841
+Dim_319=0.001976
+Dim_320=nimbus...m:8000/app/views
+Dim_321=0.000686
+Dim_322=0.005148
+Dim_323=nimbus...mages/Filter.png
+Dim_324=0.047368
+Dim_325=0.250420
+Dim_326=nimbus...ories/attributes
+Dim_327=0.047511
+Dim_328=0.250503
+Dim_329=nimbus...ories/attributes (main URL)
+Dim_330=0.045269
+Dim_331=0.235706
+Dim_332=nimbus...pi/v1/categories
+Dim_333=0.046362
+Dim_334=0.235785
+Dim_335=nimbus...pi/v1/categories (main URL)
+Dim_336=0.005593
+Dim_337=1.167551
+Dim_338=nimbus...s/Down_arrow.svg
+Dim_339=0.001002
+Dim_340=0.140320
+Dim_341=nimbus...s/home-page.html
+Dim_342=0.002305
+Dim_343=0.418187
+Dim_344=nimbus...s/home-page.html (main URL)
+Dim_345=0.000495
+Dim_346=0.003580
+Dim_347=nimbus...s/reviewUser.png
+Dim_348=0.002410
+Dim_349=0.144653
+Dim_350=nimbus...ters/by_tool/ALL
+Dim_351=0.002469
+Dim_352=0.144734
+Dim_353=nimbus...ters/by_tool/ALL (main URL)
+Dim_354=0.004420
+Dim_355=0.025998
+Dim_356=nimbusse...?image_id=1100
+Dim_357=0.002343
+Dim_358=0.014811
+Dim_359=nimbusse...?image_id=1200
+Dim_360=0.013870
+Dim_361=0.101790
+Dim_362=nimbusse...?image_id=1234
+Dim_363=0.008413
+Dim_364=0.167039
+Dim_365=nimbusse...?image_id=1235
+Dim_366=0.005249
+Dim_367=0.247330
+Dim_368=nimbusse...?image_id=1236
+Dim_369=0.017862
+Dim_370=0.581676
+Dim_371=nimbusse...?image_id=1237
+Dim_372=0.014914
+Dim_373=0.330328
+Dim_374=nimbusse...?image_id=1238
+Dim_375=0.002517
+Dim_376=0.026537
+Dim_377=nimbusse...?image_id=1245
+Dim_378=0.001689
+Dim_379=0.010491
+Dim_380=nimbusse...?image_id=1249
+Dim_381=0.002391
+Dim_382=0.016631
+Dim_383=nimbusse...?image_id=1250
+Dim_384=0.003437
+Dim_385=0.026643
+Dim_386=nimbusse...?image_id=1300
+Dim_387=0.001821
+Dim_388=0.014630
+Dim_389=nimbusse...?image_id=1400
+Dim_390=0.002200
+Dim_391=0.010339
+Dim_392=nimbusse...?image_id=1600
+Dim_393=0.002386
+Dim_394=0.015748
+Dim_395=nimbusse...?image_id=1700
+Dim_396=0.002237
+Dim_397=0.009987
+Dim_398=nimbusse...?image_id=1800
+Dim_399=0.000600
+Dim_400=0.005716
+Dim_401=nimbusse...?image_id=2100
+Dim_402=0.001940
+Dim_403=0.014010
+Dim_404=nimbusse...?image_id=2200
+Dim_405=0.001839
+Dim_406=0.006945
+Dim_407=nimbusse...?image_id=2201
+Dim_408=0.003052
+Dim_409=0.018126
+Dim_410=nimbusse...?image_id=2300
+Dim_411=0.003699
+Dim_412=0.019762
+Dim_413=nimbusse...?image_id=2400
+Dim_414=0.002353
+Dim_415=0.020499
+Dim_416=nimbusse...?image_id=3100
+Dim_417=0.002346
+Dim_418=0.013803
+Dim_419=nimbusse...?image_id=3101
+Dim_420=0.001571
+Dim_421=0.008422
+Dim_422=nimbusse...?image_id=3102
+Dim_423=0.001989
+Dim_424=0.013949
+Dim_425=nimbusse...?image_id=3103
+Dim_426=0.002136
+Dim_427=0.019220
+Dim_428=nimbusse...?image_id=3200
+Dim_429=0.002067
+Dim_430=0.019121
+Dim_431=nimbusse...?image_id=3300
+Dim_432=0.003096
+Dim_433=0.016676
+Dim_434=nimbusse...?image_id=4100
+Dim_435=0.003187
+Dim_436=0.015469
+Dim_437=nimbusse...?image_id=4200
+Dim_438=0.004078
+Dim_439=0.019593
+Dim_440=nimbusse...?image_id=4300
+Dim_441=0.003050
+Dim_442=0.019103
+Dim_443=nimbusse...?image_id=4400
+Dim_444=0.003109
+Dim_445=0.016733
+Dim_446=nimbusse...?image_id=4500
+Dim_447=0.004584
+Dim_448=0.017058
+Dim_449=nimbusse...?image_id=4600
+Dim_450=0.004657
+Dim_451=0.021015
+Dim_452=nimbusse...?image_id=4700
+Dim_453=0.001207
+Dim_454=0.024739
+Dim_455=nimbusse...?image_id=5100
+Dim_456=0.001369
+Dim_457=0.005982
+Dim_458=nimbusse...?image_id=5200
+Dim_459=0.003160
+Dim_460=0.011577
+Dim_461=nimbusse...?image_id=5300
+Dim_462=0.001665
+Dim_463=0.012847
+Dim_464=nimbusse...?image_id=5400
+Dim_465=0.001339
+Dim_466=0.005264
+Dim_467=nimbusse...?image_id=5505
+Dim_468=0.001366
+Dim_469=0.024220
+Dim_470=nimbusse...?image_id=5600
+Dim_471=0.002904
+Dim_472=0.024842
+Dim_473=nimbusse...?image_id=5700
+Dim_474=0.001372
+Dim_475=0.007797
+Dim_476=nimbusse...?image_id=5800
+Dim_477=0.001705
+Dim_478=0.026840
+Dim_479=nimbusse...?image_id=5900
+Dim_480=0.049586
+Dim_481=0.130708
+Dim_482=nimbusse...10005144_n.mp4
+Dim_483=0.998890
+Dim_484=1.011509
+Dim_485=nimbusse...10005144_n.mp4 (main URL)
+Dim_486=0.000576
+Dim_487=0.007477
+Dim_488=nimbusse...cebookLogo.png
+Dim_489=0.005414
+Dim_490=0.027732
+Dim_491=nimbusse...ces.properties
+Dim_492=0.007190
+Dim_493=0.330719
+Dim_494=nimbusse...cial-offer.jpg
+Dim_495=0.000839
+Dim_496=0.151575
+Dim_497=nimbusse...duct-page.html
+Dim_498=0.001595
+Dim_499=0.436975
+Dim_500=nimbusse...duct-page.html (main URL)
+Dim_501=0.009405
+Dim_502=0.031139
+Dim_503=nimbusse...d-webfont.woff
+Dim_504=0.000613
+Dim_505=0.143674
+Dim_506=nimbusse...gory-page.html
+Dim_507=0.000660
+Dim_508=0.143782
+Dim_509=nimbusse...gory-page.html (main URL)
+Dim_510=0.003473
+Dim_511=0.033912
+Dim_512=nimbusse...image_id=11100
+Dim_513=0.053300
+Dim_514=0.252835
+Dim_515=nimbusse...lOfTheDay=true
+Dim_516=0.053399
+Dim_517=0.253010
+Dim_518=nimbusse...lOfTheDay=true (main URL)
+Dim_519=0.000803
+Dim_520=1.147753
+Dim_521=nimbusse...m-webfont.woff
+Dim_522=0.009694
+Dim_523=0.029338
+Dim_524=nimbusse...n-webfont.woff
+Dim_525=5.003417
+Dim_526=5.169107
+Dim_527=nimbusse...opularComments
+Dim_528=5.003513
+Dim_529=5.169200
+Dim_530=nimbusse...opularComments (main URL)
+Dim_531=0.001002
+Dim_532=0.271669
+Dim_533=nimbusse...ppingCart.html
+Dim_534=0.001628
+Dim_535=0.867250
+Dim_536=nimbusse...ppingCart.html (main URL)
+Dim_537=0.000665
+Dim_538=0.141406
+Dim_539=nimbusse...rProducts.json
+Dim_540=0.000728
+Dim_541=0.141406
+Dim_542=nimbusse...rProducts.json (main URL)
+Dim_543=0.005188
+Dim_544=1.168540
+Dim_545=nimbusse...r-webfont.woff
+Dim_546=0.000445
+Dim_547=0.001926
+Dim_548=nimbusse...t_disabled.png
+Dim_549=0.000454
+Dim_550=0.595531
+Dim_551=nimbusse...ter_credit.png
+Dim_552=0.007395
+Dim_553=0.030753
+Dim_554=nimbusse...t-webfont.woff
+Dim_555=0.001873
+Dim_556=0.014765
+Dim_557=nimbusse...ular-item1.jpg
+Dim_558=0.001562
+Dim_559=0.012800
+Dim_560=nimbusse...ular-item2.jpg
+Dim_561=0.001323
+Dim_562=0.163611
+Dim_563=nimbusse...ular-item3.jpg
+Dim_564=0.000440
+Dim_565=0.144285
+Dim_566=nimbusse...urationRequest
+Dim_567=0.000496
+Dim_568=0.144379
+Dim_569=nimbusse...urationRequest (main URL)
+Dim_570=0.000508
+Dim_571=0.001332
+Dim_572=nimbusse...view_right.png
+Dim_573=0.012682
+Dim_574=0.072715
+Dim_575=nimbusse...y_banner_1.png
+Dim_576=0.020550
+Dim_577=0.066398
+Dim_578=nimbusse...y_banner_2.png
+Dim_579=0.031297
+Dim_580=0.088580
+Dim_581=nimbusse...y_banner_3.png
+Dim_582=0.031258
+Dim_583=0.077665
+Dim_584=nimbusse...y_banner_4.png
+Dim_585=0.022509
+Dim_586=0.082164
+Dim_587=nimbusse...y_banner_5.png
+Dim_588=0.003390
+Dim_589=1.355346
+Dim_590=nimbusserver.aos.com:8000
+Dim_591=0.118275
+Dim_592=120.014707
+Dim_593=nimbusserver.aos.com:8000 (main URL)
+Dim_594=1.065416
+Dim_595=1.143170
+Dim_596=web_s...m_open_Action_328
+Dim_597=0.004856
+Dim_598=19.354656
+Dim_599=www.go...com/analytics.js
+Dim_600=0.005017
+Dim_601=1.256238
+Dim_602=www.goog...=1&z=276360492
+Dim_603=0.002747
+Dim_604=0.107678
+Dim_605=www.goog...=1&z=663823616
+Dim_606=0.005360
+Dim_607=0.166239
+Dim_608=www.goog...26&z=100145304
+Dim_609=0.007680
+Dim_610=0.164180
+Dim_611=www.goog...26&z=142266463
+Dim_612=0.004749
+Dim_613=0.164932
+Dim_614=www.goog...26&z=321497195
+Dim_615=0.005260
+Dim_616=0.164208
+Dim_617=www.goog...26&z=322602817
+Dim_618=0.006455
+Dim_619=1.255676
+Dim_620=www.goog...26&z=347314596
+Dim_621=0.003555
+Dim_622=0.163236
+Dim_623=www.goog...26&z=353078723
+Dim_624=0.006947
+Dim_625=0.165809
+Dim_626=www.goog...26&z=406373490
+Dim_627=0.004661
+Dim_628=0.163289
+Dim_629=www.goog...26&z=608058753
+Dim_630=0.003149
+Dim_631=0.165966
+Dim_632=www.goog...26&z=653037235
+Dim_633=0.003970
+Dim_634=0.166109
+Dim_635=www.goog...26&z=840738254
+Dim_636=0.003754
+Dim_637=0.162996
+Dim_638=www.goog...6&z=1001479239
+Dim_639=0.004133
+Dim_640=0.164392
+Dim_641=www.goog...6&z=1004336998
+Dim_642=0.004980
+Dim_643=0.166064
+Dim_644=www.goog...6&z=1015158186
+Dim_645=0.004953
+Dim_646=0.163272
+Dim_647=www.goog...6&z=1122523835
+Dim_648=0.007597
+Dim_649=0.164287
+Dim_650=www.goog...6&z=1128941753
+Dim_651=0.006875
+Dim_652=1.172179
+Dim_653=www.goog...6&z=1156862858
+Dim_654=0.005508
+Dim_655=1.255915
+Dim_656=www.goog...6&z=1336317741
+Dim_657=0.006700
+Dim_658=0.165946
+Dim_659=www.goog...6&z=1356762777
+Dim_660=0.006192
+Dim_661=0.164425
+Dim_662=www.goog...6&z=1643116590
+Dim_663=0.003919
+Dim_664=0.163454
+Dim_665=www.goog...6&z=1678708688
+Dim_666=0.007457
+Dim_667=0.164223
+Dim_668=www.goog...6&z=1936507868
+Dim_669=0.007494
+Dim_670=1.254994
+Dim_671=www.goog...6&z=2005874632
+Dim_672=0.010355
+Dim_673=2.549666
+Dim_674=www.google..._r=1&z=276360492
+Dim_675=0.023862
+Dim_676=0.639489
+Dim_677=www.google..._r=1&z=663823616
+Dim_678=0.014775
+Dim_679=0.615629
+Dim_680=www.google...8926&z=100145304
+Dim_681=0.011127
+Dim_682=0.622936
+Dim_683=www.google...8926&z=142266463
+Dim_684=0.013432
+Dim_685=0.618715
+Dim_686=www.google...8926&z=321497195
+Dim_687=0.014568
+Dim_688=0.618037
+Dim_689=www.google...8926&z=322602817
+Dim_690=0.010775
+Dim_691=2.544064
+Dim_692=www.google...8926&z=347314596
+Dim_693=0.014949
+Dim_694=0.817195
+Dim_695=www.google...8926&z=353078723
+Dim_696=0.014918
+Dim_697=0.620525
+Dim_698=www.google...8926&z=406373490
+Dim_699=0.015109
+Dim_700=0.716953
+Dim_701=www.google...8926&z=608058753
+Dim_702=0.014999
+Dim_703=0.720277
+Dim_704=www.google...8926&z=653037235
+Dim_705=0.015498
+Dim_706=0.814816
+Dim_707=www.google...8926&z=840738254
+Dim_708=0.014032
+Dim_709=0.630617
+Dim_710=www.google...926&z=1001479239
+Dim_711=0.016285
+Dim_712=0.726282
+Dim_713=www.google...926&z=1004336998
+Dim_714=0.014630
+Dim_715=0.617687
+Dim_716=www.google...926&z=1015158186
+Dim_717=0.010694
+Dim_718=0.630571
+Dim_719=www.google...926&z=1122523835
+Dim_720=0.015564
+Dim_721=0.624663
+Dim_722=www.google...926&z=1128941753
+Dim_723=0.011172
+Dim_724=4.543294
+Dim_725=www.google...926&z=1156862858
+Dim_726=0.010347
+Dim_727=2.544329
+Dim_728=www.google...926&z=1336317741
+Dim_729=0.011868
+Dim_730=0.615495
+Dim_731=www.google...926&z=1356762777
+Dim_732=0.016112
+Dim_733=0.620570
+Dim_734=www.google...926&z=1643116590
+Dim_735=0.015047
+Dim_736=1.919480
+Dim_737=www.google...926&z=1678708688
+Dim_738=0.015876
+Dim_739=0.621510
+Dim_740=www.google...926&z=1936507868
+Dim_741=0.011742
+Dim_742=2.544731
+Dim_743=www.google...926&z=2005874632
+
+[Breakdown_meter_Dim4]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[Breakdown_meter_Dim5]
+InternalDimName=Size
+Dimension=Size
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=5128.049805
+
+[Breakdown_meter_Dim6]
+InternalDimName=DNS Resolution
+Dimension=DNS Resolution
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.100000
+
+[Breakdown_meter_Dim7]
+InternalDimName=SendSize
+Dimension=SendSize
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=49.567383
+
+[Breakdown_meter_Dim8]
+InternalDimName=First Buffer
+Dimension=First Buffer
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=235.299000
+
+[Breakdown_meter_Dim9]
+InternalDimName=SSL Handshaking
+Dimension=SSL Handshaking
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=1.252000
+
+[Breakdown_meter_Dim10]
+InternalDimName=Network
+Dimension=Network
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=34.902000
+
+[Breakdown_meter_Dim11]
+InternalDimName=Server
+Dimension=Server
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=200.397000
+
+[Breakdown_meter_Dim12]
+InternalDimName=Error
+Dimension=Error
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Breakdown_meter_Dim13]
+InternalDimName=Client
+Dimension=Client
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=4.358000
+
+[Breakdown_meter_Dim14]
+InternalDimName=Receive
+Dimension=Receive
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=682.153000
+
+[Breakdown_meter_Dim15]
+InternalDimName=FTP Authentication
+Dimension=FTP Authentication
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Breakdown_meter_Dim16]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Breakdown_meter_Dim17]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Breakdown_meter_Dim18]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=249
+Dim_0=2
+Dim_1=3
+Dim_2=4
+Dim_3=5
+Dim_4=6
+Dim_5=7
+Dim_6=8
+Dim_7=9
+Dim_8=10
+Dim_9=11
+Dim_10=12
+Dim_11=13
+Dim_12=14
+Dim_13=15
+Dim_14=16
+Dim_15=17
+Dim_16=18
+Dim_17=19
+Dim_18=20
+Dim_19=21
+Dim_20=22
+Dim_21=23
+Dim_22=24
+Dim_23=25
+Dim_24=26
+Dim_25=27
+Dim_26=28
+Dim_27=29
+Dim_28=30
+Dim_29=31
+Dim_30=32
+Dim_31=33
+Dim_32=34
+Dim_33=35
+Dim_34=36
+Dim_35=37
+Dim_36=38
+Dim_37=39
+Dim_38=40
+Dim_39=41
+Dim_40=42
+Dim_41=43
+Dim_42=44
+Dim_43=45
+Dim_44=46
+Dim_45=47
+Dim_46=48
+Dim_47=49
+Dim_48=50
+Dim_49=51
+Dim_50=52
+Dim_51=53
+Dim_52=54
+Dim_53=55
+Dim_54=56
+Dim_55=57
+Dim_56=58
+Dim_57=59
+Dim_58=60
+Dim_59=61
+Dim_60=62
+Dim_61=63
+Dim_62=64
+Dim_63=65
+Dim_64=66
+Dim_65=67
+Dim_66=68
+Dim_67=69
+Dim_68=70
+Dim_69=71
+Dim_70=72
+Dim_71=73
+Dim_72=74
+Dim_73=75
+Dim_74=76
+Dim_75=77
+Dim_76=78
+Dim_77=79
+Dim_78=80
+Dim_79=81
+Dim_80=82
+Dim_81=83
+Dim_82=84
+Dim_83=85
+Dim_84=86
+Dim_85=87
+Dim_86=88
+Dim_87=89
+Dim_88=90
+Dim_89=91
+Dim_90=92
+Dim_91=93
+Dim_92=94
+Dim_93=95
+Dim_94=96
+Dim_95=97
+Dim_96=98
+Dim_97=99
+Dim_98=100
+Dim_99=101
+Dim_100=102
+Dim_101=103
+Dim_102=104
+Dim_103=106
+Dim_104=107
+Dim_105=108
+Dim_106=109
+Dim_107=110
+Dim_108=111
+Dim_109=112
+Dim_110=113
+Dim_111=114
+Dim_112=115
+Dim_113=116
+Dim_114=117
+Dim_115=118
+Dim_116=119
+Dim_117=120
+Dim_118=121
+Dim_119=122
+Dim_120=123
+Dim_121=124
+Dim_122=125
+Dim_123=126
+Dim_124=127
+Dim_125=128
+Dim_126=129
+Dim_127=130
+Dim_128=131
+Dim_129=132
+Dim_130=133
+Dim_131=134
+Dim_132=135
+Dim_133=138
+Dim_134=139
+Dim_135=140
+Dim_136=141
+Dim_137=142
+Dim_138=143
+Dim_139=146
+Dim_140=147
+Dim_141=148
+Dim_142=149
+Dim_143=150
+Dim_144=151
+Dim_145=152
+Dim_146=153
+Dim_147=154
+Dim_148=155
+Dim_149=156
+Dim_150=157
+Dim_151=158
+Dim_152=159
+Dim_153=160
+Dim_154=161
+Dim_155=162
+Dim_156=163
+Dim_157=164
+Dim_158=165
+Dim_159=166
+Dim_160=167
+Dim_161=168
+Dim_162=169
+Dim_163=170
+Dim_164=171
+Dim_165=172
+Dim_166=173
+Dim_167=174
+Dim_168=175
+Dim_169=176
+Dim_170=177
+Dim_171=178
+Dim_172=179
+Dim_173=180
+Dim_174=181
+Dim_175=182
+Dim_176=183
+Dim_177=184
+Dim_178=185
+Dim_179=186
+Dim_180=187
+Dim_181=188
+Dim_182=189
+Dim_183=190
+Dim_184=191
+Dim_185=192
+Dim_186=193
+Dim_187=194
+Dim_188=195
+Dim_189=196
+Dim_190=197
+Dim_191=198
+Dim_192=199
+Dim_193=200
+Dim_194=201
+Dim_195=202
+Dim_196=203
+Dim_197=204
+Dim_198=205
+Dim_199=206
+Dim_200=207
+Dim_201=208
+Dim_202=209
+Dim_203=210
+Dim_204=211
+Dim_205=212
+Dim_206=213
+Dim_207=214
+Dim_208=215
+Dim_209=216
+Dim_210=217
+Dim_211=218
+Dim_212=219
+Dim_213=220
+Dim_214=221
+Dim_215=222
+Dim_216=223
+Dim_217=224
+Dim_218=225
+Dim_219=226
+Dim_220=227
+Dim_221=228
+Dim_222=229
+Dim_223=230
+Dim_224=231
+Dim_225=232
+Dim_226=233
+Dim_227=234
+Dim_228=235
+Dim_229=236
+Dim_230=237
+Dim_231=238
+Dim_232=239
+Dim_233=240
+Dim_234=241
+Dim_235=242
+Dim_236=243
+Dim_237=244
+Dim_238=245
+Dim_239=246
+Dim_240=247
+Dim_241=248
+Dim_242=249
+Dim_243=250
+Dim_244=251
+Dim_245=254
+Dim_246=255
+Dim_247=256
+Dim_248=257
+AsParent=1
+BasedOnTableName=
+
+[Breakdown_meter_Dim19]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Breakdown_meter_Dim20]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[Breakdown_meter_Dim21]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[Breakdown_meter_Dim22]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Breakdown_meter_Dim23]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[Breakdown_meter_Dim24]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_1]
+FactTableName=DataPoint_meter
+DimensionCount=11
+
+[DataPoint_meter_Dim0]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=DataPoint_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[DataPoint_meter_Dim1]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[DataPoint_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=DataPoint_meter
+NumValues=7
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=21
+Dim_0=1.000000
+Dim_1=16.000000
+Dim_2=Connection Shutdowns
+Dim_3=-12.000000
+Dim_4=12.000000
+Dim_5=Connections
+Dim_6=0.000000
+Dim_7=12287.000000
+Dim_8=Download speed
+Dim_9=1.000000
+Dim_10=18.000000
+Dim_11=New Connections
+Dim_12=1.000000
+Dim_13=1.000000
+Dim_14=New Sessions
+Dim_15=-1.000000
+Dim_16=1.000000
+Dim_17=Number of buffering video
+Dim_18=1.000000
+Dim_19=1.033000
+Dim_20=Time to start(Can play)
+
+[DataPoint_meter_Dim3]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[DataPoint_meter_Dim4]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[DataPoint_meter_Dim5]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[DataPoint_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[DataPoint_meter_Dim7]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[DataPoint_meter_Dim8]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[DataPoint_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[DataPoint_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_2]
+FactTableName=Diagnostic_meter
+DimensionCount=7
+
+[Diagnostic_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[Diagnostic_meter_Dim1]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Diagnostic_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[Diagnostic_meter_Dim2]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[Diagnostic_meter_Dim3]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[Diagnostic_meter_Dim4]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Diagnostic_meter_Dim5]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Diagnostic_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Table_3]
+FactTableName=Error_meter
+DimensionCount=14
+
+[Error_meter_Dim0]
+InternalDimName=Father ID
+Dimension=Father ID
+EqualFlag=1
+DimensionTableName=Error_meter
+NumValues=1
+DimensionType=DiscreteNumber
+UseEscapeSequence=1
+DimCount=1
+Dim_0=13
+LikeMode=0
+
+[Error_meter_Dim1]
+InternalDimName=Line Number
+Dimension=Line Number
+EqualFlag=1
+DimensionTableName=Error_meter
+NumValues=1
+DimensionType=DiscreteNumber
+UseEscapeSequence=1
+DimCount=1
+Dim_0=22
+LikeMode=0
+
+[Error_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Error_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[Error_meter_Dim3]
+InternalDimName=Error Message
+Dimension=Error Message
+EqualFlag=1
+DimensionTableName=ErrorMessage
+NumValues=20
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=20
+Dim_0=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=1250". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No_0
+Dim_1=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=1300". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No_9
+Dim_2=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=1600". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/N_11
+Dim_3=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=1700". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/N_13
+Dim_4=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=2400". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No_2
+Dim_5=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=4200". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No_3
+Dim_6=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=4600". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No_7
+Dim_7=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=4700". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/N_14
+Dim_8=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=5505". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/N_12
+Dim_9=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=5600". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/N_18
+Dim_10=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/catalog/fetchImage?image_id=5900". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No_4
+Dim_11=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/css/images/Banner1.jpg". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No to have t_1
+Dim_12=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/css/images/Banner2.jpg". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No to have _19
+Dim_13=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/css/images/Banner3.jpg". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No to have t_8
+Dim_14=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/css/images/category_banner_1.png". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No_5
+Dim_15=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/css/images/category_banner_2.png". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/N_16
+Dim_16=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/css/images/category_banner_3.png". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No_6
+Dim_17=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/css/images/category_banner_4.png". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/N_10
+Dim_18=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/css/images/category_banner_5.png". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/N_15
+Dim_19=Action.c(22) Error -27720 Step download timeout (120 seconds) has expired when downloading resource "http//advantageonlineshopping.com80/css/images/Popular-item1.jpg". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No to_17
+LikeMode=0
+
+[Error_meter_Dim4]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[Error_meter_Dim5]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[Error_meter_Dim6]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Error_meter_Dim7]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Error_meter_Dim8]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Error_meter_Dim9]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[Error_meter_Dim10]
+InternalDimName=Action Name
+Dimension=Action Name
+EqualFlag=1
+DimensionTableName=ScriptActions
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=Action
+LikeMode=0
+
+[Error_meter_Dim11]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[Error_meter_Dim12]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[Error_meter_Dim13]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_4]
+FactTableName=Event_meter
+DimensionCount=13
+
+[Event_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[Event_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[Event_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=6
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=18
+Dim_0=0.997198
+Dim_1=1.032999
+Dim_2=1:BUFFERING
+Dim_3=0.046008
+Dim_4=1.152721
+Dim_5=1:DOWNLOAD
+Dim_6=2.614354
+Dim_7=120.022896
+Dim_8=Browse-Catalog
+Dim_9=14.040333
+Dim_10=27.263593
+Dim_11=Check-Accounts
+Dim_12=18.854694
+Dim_13=120.023005
+Dim_14=Full-Process
+Dim_15=1.000000
+Dim_16=1.000000
+Dim_17=WAN Emulation
+
+[Event_meter_Dim3]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[Event_meter_Dim4]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Event_meter_Dim5]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Event_meter_Dim6]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=11
+Dim_0=0
+Dim_1=1
+Dim_2=105
+Dim_3=136
+Dim_4=137
+Dim_5=144
+Dim_6=145
+Dim_7=252
+Dim_8=253
+Dim_9=258
+Dim_10=259
+AsParent=1
+BasedOnTableName=
+
+[Event_meter_Dim7]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Event_meter_Dim8]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[Event_meter_Dim9]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[Event_meter_Dim10]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Event_meter_Dim11]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[Event_meter_Dim12]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_5]
+FactTableName=J2EETBD_meter
+DimensionCount=7
+
+[J2EETBD_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[J2EETBD_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[J2EETBD_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[J2EETBD_meter_Dim3]
+InternalDimName=Num Exception
+Dimension=Num Exception
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[J2EETBD_meter_Dim4]
+InternalDimName=Num Timeout
+Dimension=Num Timeout
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[J2EETBD_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[J2EETBD_meter_Dim6]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Table_6]
+FactTableName=J2EETBD_Net_meter
+DimensionCount=6
+
+[J2EETBD_Net_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[J2EETBD_Net_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[J2EETBD_Net_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=J2EETBD_Net_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[J2EETBD_Net_meter_Dim3]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=260
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+Dim_136=136
+Dim_137=137
+Dim_138=138
+Dim_139=139
+Dim_140=140
+Dim_141=141
+Dim_142=142
+Dim_143=143
+Dim_144=144
+Dim_145=145
+Dim_146=146
+Dim_147=147
+Dim_148=148
+Dim_149=149
+Dim_150=150
+Dim_151=151
+Dim_152=152
+Dim_153=153
+Dim_154=154
+Dim_155=155
+Dim_156=156
+Dim_157=157
+Dim_158=158
+Dim_159=159
+Dim_160=160
+Dim_161=161
+Dim_162=162
+Dim_163=163
+Dim_164=164
+Dim_165=165
+Dim_166=166
+Dim_167=167
+Dim_168=168
+Dim_169=169
+Dim_170=170
+Dim_171=171
+Dim_172=172
+Dim_173=173
+Dim_174=174
+Dim_175=175
+Dim_176=176
+Dim_177=177
+Dim_178=178
+Dim_179=179
+Dim_180=180
+Dim_181=181
+Dim_182=182
+Dim_183=183
+Dim_184=184
+Dim_185=185
+Dim_186=186
+Dim_187=187
+Dim_188=188
+Dim_189=189
+Dim_190=190
+Dim_191=191
+Dim_192=192
+Dim_193=193
+Dim_194=194
+Dim_195=195
+Dim_196=196
+Dim_197=197
+Dim_198=198
+Dim_199=199
+Dim_200=200
+Dim_201=201
+Dim_202=202
+Dim_203=203
+Dim_204=204
+Dim_205=205
+Dim_206=206
+Dim_207=207
+Dim_208=208
+Dim_209=209
+Dim_210=210
+Dim_211=211
+Dim_212=212
+Dim_213=213
+Dim_214=214
+Dim_215=215
+Dim_216=216
+Dim_217=217
+Dim_218=218
+Dim_219=219
+Dim_220=220
+Dim_221=221
+Dim_222=222
+Dim_223=223
+Dim_224=224
+Dim_225=225
+Dim_226=226
+Dim_227=227
+Dim_228=228
+Dim_229=229
+Dim_230=230
+Dim_231=231
+Dim_232=232
+Dim_233=233
+Dim_234=234
+Dim_235=235
+Dim_236=236
+Dim_237=237
+Dim_238=238
+Dim_239=239
+Dim_240=240
+Dim_241=241
+Dim_242=242
+Dim_243=243
+Dim_244=244
+Dim_245=245
+Dim_246=246
+Dim_247=247
+Dim_248=248
+Dim_249=249
+Dim_250=250
+Dim_251=251
+Dim_252=252
+Dim_253=253
+Dim_254=254
+Dim_255=255
+Dim_256=256
+Dim_257=257
+Dim_258=258
+Dim_259=259
+AsParent=1
+BasedOnTableName=
+
+[J2EETBD_Net_meter_Dim4]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[J2EETBD_Net_meter_Dim5]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[Table_7]
+FactTableName=Monitor_meter
+DimensionCount=9
+
+[Monitor_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[Monitor_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[Monitor_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Monitor_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Monitor_meter_Dim4]
+InternalDimName=Father ID
+Dimension=Father ID
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=1
+DimensionType=DiscreteNumber
+UseEscapeSequence=1
+DimCount=1
+Dim_0=-1
+LikeMode=0
+
+[Monitor_meter_Dim5]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[Monitor_meter_Dim6]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=12
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=36
+Dim_0=0.000000
+Dim_1=143542352.000000
+Dim_2=Client Current bps - In
+Dim_3=0.000000
+Dim_4=718360.000000
+Dim_5=Client Current bps - Out
+Dim_6=0.000000
+Dim_7=5065530588.000000
+Dim_8=Client Total Throughput - In
+Dim_9=0.000000
+Dim_10=8603483.000000
+Dim_11=Client Total Throughput - Out
+Dim_12=0.000000
+Dim_13=301.000000
+Dim_14=Latency (msec)
+Dim_15=0.000000
+Dim_16=0.000000
+Dim_17=Packet Loss %
+Dim_18=0.000000
+Dim_19=22.000000
+Dim_20=Packet Loss Count
+Dim_21=0.000000
+Dim_22=702816.000000
+Dim_23=Server Current bps - In
+Dim_24=0.000000
+Dim_25=146902320.000000
+Dim_26=Server Current bps - Out
+Dim_27=0.000000
+Dim_28=8603483.000000
+Dim_29=Server Total Throughput - In
+Dim_30=0.000000
+Dim_31=5065530588.000000
+Dim_32=Server Total Throughput - Out
+Dim_33=0.000000
+Dim_34=5505.000000
+Dim_35=Total Packet Loss
+
+[Monitor_meter_Dim7]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Monitor_meter_Dim8]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[Table_8]
+FactTableName=Sap_osm_meter
+DimensionCount=6
+
+[Sap_osm_meter_Dim0]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Sap_osm_meter_Dim1]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[Sap_osm_meter_Dim2]
+InternalDimName=PageOutKB
+Dimension=PageOutKB
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim3]
+InternalDimName=PageInKB
+Dimension=PageInKB
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim4]
+InternalDimName=Disks
+Dimension=Disks
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim5]
+InternalDimName=CPU
+Dimension=CPU
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Table_9]
+FactTableName=Sap_sr_meter
+DimensionCount=34
+
+[Sap_sr_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[Sap_sr_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[Sap_sr_meter_Dim2]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[Sap_sr_meter_Dim3]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[Sap_sr_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=260
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+Dim_136=136
+Dim_137=137
+Dim_138=138
+Dim_139=139
+Dim_140=140
+Dim_141=141
+Dim_142=142
+Dim_143=143
+Dim_144=144
+Dim_145=145
+Dim_146=146
+Dim_147=147
+Dim_148=148
+Dim_149=149
+Dim_150=150
+Dim_151=151
+Dim_152=152
+Dim_153=153
+Dim_154=154
+Dim_155=155
+Dim_156=156
+Dim_157=157
+Dim_158=158
+Dim_159=159
+Dim_160=160
+Dim_161=161
+Dim_162=162
+Dim_163=163
+Dim_164=164
+Dim_165=165
+Dim_166=166
+Dim_167=167
+Dim_168=168
+Dim_169=169
+Dim_170=170
+Dim_171=171
+Dim_172=172
+Dim_173=173
+Dim_174=174
+Dim_175=175
+Dim_176=176
+Dim_177=177
+Dim_178=178
+Dim_179=179
+Dim_180=180
+Dim_181=181
+Dim_182=182
+Dim_183=183
+Dim_184=184
+Dim_185=185
+Dim_186=186
+Dim_187=187
+Dim_188=188
+Dim_189=189
+Dim_190=190
+Dim_191=191
+Dim_192=192
+Dim_193=193
+Dim_194=194
+Dim_195=195
+Dim_196=196
+Dim_197=197
+Dim_198=198
+Dim_199=199
+Dim_200=200
+Dim_201=201
+Dim_202=202
+Dim_203=203
+Dim_204=204
+Dim_205=205
+Dim_206=206
+Dim_207=207
+Dim_208=208
+Dim_209=209
+Dim_210=210
+Dim_211=211
+Dim_212=212
+Dim_213=213
+Dim_214=214
+Dim_215=215
+Dim_216=216
+Dim_217=217
+Dim_218=218
+Dim_219=219
+Dim_220=220
+Dim_221=221
+Dim_222=222
+Dim_223=223
+Dim_224=224
+Dim_225=225
+Dim_226=226
+Dim_227=227
+Dim_228=228
+Dim_229=229
+Dim_230=230
+Dim_231=231
+Dim_232=232
+Dim_233=233
+Dim_234=234
+Dim_235=235
+Dim_236=236
+Dim_237=237
+Dim_238=238
+Dim_239=239
+Dim_240=240
+Dim_241=241
+Dim_242=242
+Dim_243=243
+Dim_244=244
+Dim_245=245
+Dim_246=246
+Dim_247=247
+Dim_248=248
+Dim_249=249
+Dim_250=250
+Dim_251=251
+Dim_252=252
+Dim_253=253
+Dim_254=254
+Dim_255=255
+Dim_256=256
+Dim_257=257
+Dim_258=258
+Dim_259=259
+AsParent=1
+BasedOnTableName=
+
+[Sap_sr_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Sap_sr_meter_Dim6]
+InternalDimName=Roll In Time
+Dimension=Roll In Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim7]
+InternalDimName=Output Len
+Dimension=Output Len
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim8]
+InternalDimName=Input Len
+Dimension=Input Len
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim9]
+InternalDimName=Queue Time
+Dimension=Queue Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim10]
+InternalDimName=Cpu Time
+Dimension=Cpu Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim11]
+InternalDimName=Resp Time
+Dimension=Resp Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim12]
+InternalDimName=Lock Time
+Dimension=Lock Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim13]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[Sap_sr_meter_Dim14]
+InternalDimName=Database Time
+Dimension=Database Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim15]
+InternalDimName=Start Time
+Dimension=Start Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim16]
+InternalDimName=Rfc Time
+Dimension=Rfc Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim17]
+InternalDimName=Network Time
+Dimension=Network Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim18]
+InternalDimName=End-User Time
+Dimension=End-User Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim19]
+InternalDimName=GuiNet Time
+Dimension=GuiNet Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim20]
+InternalDimName=Roll Out Time
+Dimension=Roll Out Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim21]
+InternalDimName=Roll Wait Time
+Dimension=Roll Wait Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim22]
+InternalDimName=Cuaload Time
+Dimension=Cuaload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim23]
+InternalDimName=Dynpload Time
+Dimension=Dynpload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim24]
+InternalDimName=Repload Time
+Dimension=Repload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim25]
+InternalDimName=Generate Time
+Dimension=Generate Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim26]
+InternalDimName=Commit Time
+Dimension=Commit Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim27]
+InternalDimName=DB Time to Record
+Dimension=DB Time to Record
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim28]
+InternalDimName=Database Records
+Dimension=Database Records
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim29]
+InternalDimName=Gui Time
+Dimension=Gui Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim30]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[Sap_sr_meter_Dim31]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[Sap_sr_meter_Dim32]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[Sap_sr_meter_Dim33]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_10]
+FactTableName=Sap_wpm_meter
+DimensionCount=8
+
+[Sap_wpm_meter_Dim0]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[Sap_wpm_meter_Dim1]
+InternalDimName=StoppedOther
+Dimension=StoppedOther
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim2]
+InternalDimName=StoppedPRIV
+Dimension=StoppedPRIV
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim3]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[Sap_wpm_meter_Dim4]
+InternalDimName=Ended
+Dimension=Ended
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim5]
+InternalDimName=StoppedCPIC
+Dimension=StoppedCPIC
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim6]
+InternalDimName=Running
+Dimension=Running
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim7]
+InternalDimName=Waiting
+Dimension=Waiting
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Table_11]
+FactTableName=SARM_meter
+DimensionCount=12
+
+[SARM_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[SARM_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[SARM_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[SARM_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[SARM_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=260
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+Dim_136=136
+Dim_137=137
+Dim_138=138
+Dim_139=139
+Dim_140=140
+Dim_141=141
+Dim_142=142
+Dim_143=143
+Dim_144=144
+Dim_145=145
+Dim_146=146
+Dim_147=147
+Dim_148=148
+Dim_149=149
+Dim_150=150
+Dim_151=151
+Dim_152=152
+Dim_153=153
+Dim_154=154
+Dim_155=155
+Dim_156=156
+Dim_157=157
+Dim_158=158
+Dim_159=159
+Dim_160=160
+Dim_161=161
+Dim_162=162
+Dim_163=163
+Dim_164=164
+Dim_165=165
+Dim_166=166
+Dim_167=167
+Dim_168=168
+Dim_169=169
+Dim_170=170
+Dim_171=171
+Dim_172=172
+Dim_173=173
+Dim_174=174
+Dim_175=175
+Dim_176=176
+Dim_177=177
+Dim_178=178
+Dim_179=179
+Dim_180=180
+Dim_181=181
+Dim_182=182
+Dim_183=183
+Dim_184=184
+Dim_185=185
+Dim_186=186
+Dim_187=187
+Dim_188=188
+Dim_189=189
+Dim_190=190
+Dim_191=191
+Dim_192=192
+Dim_193=193
+Dim_194=194
+Dim_195=195
+Dim_196=196
+Dim_197=197
+Dim_198=198
+Dim_199=199
+Dim_200=200
+Dim_201=201
+Dim_202=202
+Dim_203=203
+Dim_204=204
+Dim_205=205
+Dim_206=206
+Dim_207=207
+Dim_208=208
+Dim_209=209
+Dim_210=210
+Dim_211=211
+Dim_212=212
+Dim_213=213
+Dim_214=214
+Dim_215=215
+Dim_216=216
+Dim_217=217
+Dim_218=218
+Dim_219=219
+Dim_220=220
+Dim_221=221
+Dim_222=222
+Dim_223=223
+Dim_224=224
+Dim_225=225
+Dim_226=226
+Dim_227=227
+Dim_228=228
+Dim_229=229
+Dim_230=230
+Dim_231=231
+Dim_232=232
+Dim_233=233
+Dim_234=234
+Dim_235=235
+Dim_236=236
+Dim_237=237
+Dim_238=238
+Dim_239=239
+Dim_240=240
+Dim_241=241
+Dim_242=242
+Dim_243=243
+Dim_244=244
+Dim_245=245
+Dim_246=246
+Dim_247=247
+Dim_248=248
+Dim_249=249
+Dim_250=250
+Dim_251=251
+Dim_252=252
+Dim_253=253
+Dim_254=254
+Dim_255=255
+Dim_256=256
+Dim_257=257
+Dim_258=258
+Dim_259=259
+AsParent=1
+BasedOnTableName=
+
+[SARM_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[SARM_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SARM_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[SARM_meter_Dim7]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[SARM_meter_Dim8]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[SARM_meter_Dim9]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[SARM_meter_Dim10]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[SARM_meter_Dim11]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_12]
+FactTableName=SARM_Net_meter
+DimensionCount=11
+
+[SARM_Net_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[SARM_Net_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[SARM_Net_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[SARM_Net_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[SARM_Net_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=260
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+Dim_136=136
+Dim_137=137
+Dim_138=138
+Dim_139=139
+Dim_140=140
+Dim_141=141
+Dim_142=142
+Dim_143=143
+Dim_144=144
+Dim_145=145
+Dim_146=146
+Dim_147=147
+Dim_148=148
+Dim_149=149
+Dim_150=150
+Dim_151=151
+Dim_152=152
+Dim_153=153
+Dim_154=154
+Dim_155=155
+Dim_156=156
+Dim_157=157
+Dim_158=158
+Dim_159=159
+Dim_160=160
+Dim_161=161
+Dim_162=162
+Dim_163=163
+Dim_164=164
+Dim_165=165
+Dim_166=166
+Dim_167=167
+Dim_168=168
+Dim_169=169
+Dim_170=170
+Dim_171=171
+Dim_172=172
+Dim_173=173
+Dim_174=174
+Dim_175=175
+Dim_176=176
+Dim_177=177
+Dim_178=178
+Dim_179=179
+Dim_180=180
+Dim_181=181
+Dim_182=182
+Dim_183=183
+Dim_184=184
+Dim_185=185
+Dim_186=186
+Dim_187=187
+Dim_188=188
+Dim_189=189
+Dim_190=190
+Dim_191=191
+Dim_192=192
+Dim_193=193
+Dim_194=194
+Dim_195=195
+Dim_196=196
+Dim_197=197
+Dim_198=198
+Dim_199=199
+Dim_200=200
+Dim_201=201
+Dim_202=202
+Dim_203=203
+Dim_204=204
+Dim_205=205
+Dim_206=206
+Dim_207=207
+Dim_208=208
+Dim_209=209
+Dim_210=210
+Dim_211=211
+Dim_212=212
+Dim_213=213
+Dim_214=214
+Dim_215=215
+Dim_216=216
+Dim_217=217
+Dim_218=218
+Dim_219=219
+Dim_220=220
+Dim_221=221
+Dim_222=222
+Dim_223=223
+Dim_224=224
+Dim_225=225
+Dim_226=226
+Dim_227=227
+Dim_228=228
+Dim_229=229
+Dim_230=230
+Dim_231=231
+Dim_232=232
+Dim_233=233
+Dim_234=234
+Dim_235=235
+Dim_236=236
+Dim_237=237
+Dim_238=238
+Dim_239=239
+Dim_240=240
+Dim_241=241
+Dim_242=242
+Dim_243=243
+Dim_244=244
+Dim_245=245
+Dim_246=246
+Dim_247=247
+Dim_248=248
+Dim_249=249
+Dim_250=250
+Dim_251=251
+Dim_252=252
+Dim_253=253
+Dim_254=254
+Dim_255=255
+Dim_256=256
+Dim_257=257
+Dim_258=258
+Dim_259=259
+AsParent=1
+BasedOnTableName=
+
+[SARM_Net_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[SARM_Net_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SARM_Net_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[SARM_Net_meter_Dim7]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[SARM_Net_meter_Dim8]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[SARM_Net_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[SARM_Net_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_13]
+FactTableName=SQLBD_meter
+DimensionCount=12
+
+[SQLBD_meter_Dim0]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[SQLBD_meter_Dim1]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[SQLBD_meter_Dim2]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[SQLBD_meter_Dim3]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[SQLBD_meter_Dim4]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[SQLBD_meter_Dim5]
+InternalDimName=Other Time
+Dimension=Other Time
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[SQLBD_meter_Dim7]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[SQLBD_meter_Dim8]
+InternalDimName=Prepare
+Dimension=Prepare
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim9]
+InternalDimName=Execute
+Dimension=Execute
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim10]
+InternalDimName=Initial Fetch
+Dimension=Initial Fetch
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim11]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[Table_14]
+FactTableName=TruClientBreakDown_meter
+DimensionCount=11
+
+[TruClientBreakDown_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=260
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+Dim_136=136
+Dim_137=137
+Dim_138=138
+Dim_139=139
+Dim_140=140
+Dim_141=141
+Dim_142=142
+Dim_143=143
+Dim_144=144
+Dim_145=145
+Dim_146=146
+Dim_147=147
+Dim_148=148
+Dim_149=149
+Dim_150=150
+Dim_151=151
+Dim_152=152
+Dim_153=153
+Dim_154=154
+Dim_155=155
+Dim_156=156
+Dim_157=157
+Dim_158=158
+Dim_159=159
+Dim_160=160
+Dim_161=161
+Dim_162=162
+Dim_163=163
+Dim_164=164
+Dim_165=165
+Dim_166=166
+Dim_167=167
+Dim_168=168
+Dim_169=169
+Dim_170=170
+Dim_171=171
+Dim_172=172
+Dim_173=173
+Dim_174=174
+Dim_175=175
+Dim_176=176
+Dim_177=177
+Dim_178=178
+Dim_179=179
+Dim_180=180
+Dim_181=181
+Dim_182=182
+Dim_183=183
+Dim_184=184
+Dim_185=185
+Dim_186=186
+Dim_187=187
+Dim_188=188
+Dim_189=189
+Dim_190=190
+Dim_191=191
+Dim_192=192
+Dim_193=193
+Dim_194=194
+Dim_195=195
+Dim_196=196
+Dim_197=197
+Dim_198=198
+Dim_199=199
+Dim_200=200
+Dim_201=201
+Dim_202=202
+Dim_203=203
+Dim_204=204
+Dim_205=205
+Dim_206=206
+Dim_207=207
+Dim_208=208
+Dim_209=209
+Dim_210=210
+Dim_211=211
+Dim_212=212
+Dim_213=213
+Dim_214=214
+Dim_215=215
+Dim_216=216
+Dim_217=217
+Dim_218=218
+Dim_219=219
+Dim_220=220
+Dim_221=221
+Dim_222=222
+Dim_223=223
+Dim_224=224
+Dim_225=225
+Dim_226=226
+Dim_227=227
+Dim_228=228
+Dim_229=229
+Dim_230=230
+Dim_231=231
+Dim_232=232
+Dim_233=233
+Dim_234=234
+Dim_235=235
+Dim_236=236
+Dim_237=237
+Dim_238=238
+Dim_239=239
+Dim_240=240
+Dim_241=241
+Dim_242=242
+Dim_243=243
+Dim_244=244
+Dim_245=245
+Dim_246=246
+Dim_247=247
+Dim_248=248
+Dim_249=249
+Dim_250=250
+Dim_251=251
+Dim_252=252
+Dim_253=253
+Dim_254=254
+Dim_255=255
+Dim_256=256
+Dim_257=257
+Dim_258=258
+Dim_259=259
+AsParent=1
+BasedOnTableName=
+
+[TruClientBreakDown_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim6]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim7]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim8]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=TruClientBreakDown_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[TruClientBreakDown_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[TruClientBreakDown_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_15]
+FactTableName=TruClientJsBreakdown_meter
+DimensionCount=11
+
+[TruClientJsBreakdown_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim4]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=260
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+Dim_136=136
+Dim_137=137
+Dim_138=138
+Dim_139=139
+Dim_140=140
+Dim_141=141
+Dim_142=142
+Dim_143=143
+Dim_144=144
+Dim_145=145
+Dim_146=146
+Dim_147=147
+Dim_148=148
+Dim_149=149
+Dim_150=150
+Dim_151=151
+Dim_152=152
+Dim_153=153
+Dim_154=154
+Dim_155=155
+Dim_156=156
+Dim_157=157
+Dim_158=158
+Dim_159=159
+Dim_160=160
+Dim_161=161
+Dim_162=162
+Dim_163=163
+Dim_164=164
+Dim_165=165
+Dim_166=166
+Dim_167=167
+Dim_168=168
+Dim_169=169
+Dim_170=170
+Dim_171=171
+Dim_172=172
+Dim_173=173
+Dim_174=174
+Dim_175=175
+Dim_176=176
+Dim_177=177
+Dim_178=178
+Dim_179=179
+Dim_180=180
+Dim_181=181
+Dim_182=182
+Dim_183=183
+Dim_184=184
+Dim_185=185
+Dim_186=186
+Dim_187=187
+Dim_188=188
+Dim_189=189
+Dim_190=190
+Dim_191=191
+Dim_192=192
+Dim_193=193
+Dim_194=194
+Dim_195=195
+Dim_196=196
+Dim_197=197
+Dim_198=198
+Dim_199=199
+Dim_200=200
+Dim_201=201
+Dim_202=202
+Dim_203=203
+Dim_204=204
+Dim_205=205
+Dim_206=206
+Dim_207=207
+Dim_208=208
+Dim_209=209
+Dim_210=210
+Dim_211=211
+Dim_212=212
+Dim_213=213
+Dim_214=214
+Dim_215=215
+Dim_216=216
+Dim_217=217
+Dim_218=218
+Dim_219=219
+Dim_220=220
+Dim_221=221
+Dim_222=222
+Dim_223=223
+Dim_224=224
+Dim_225=225
+Dim_226=226
+Dim_227=227
+Dim_228=228
+Dim_229=229
+Dim_230=230
+Dim_231=231
+Dim_232=232
+Dim_233=233
+Dim_234=234
+Dim_235=235
+Dim_236=236
+Dim_237=237
+Dim_238=238
+Dim_239=239
+Dim_240=240
+Dim_241=241
+Dim_242=242
+Dim_243=243
+Dim_244=244
+Dim_245=245
+Dim_246=246
+Dim_247=247
+Dim_248=248
+Dim_249=249
+Dim_250=250
+Dim_251=251
+Dim_252=252
+Dim_253=253
+Dim_254=254
+Dim_255=255
+Dim_256=256
+Dim_257=257
+Dim_258=258
+Dim_259=259
+AsParent=1
+BasedOnTableName=
+
+[TruClientJsBreakdown_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim6]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim7]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim8]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=TruClientJsBreakdown_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[TruClientJsBreakdown_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[TruClientJsBreakdown_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_16]
+FactTableName=URL_meter
+DimensionCount=10
+
+[URL_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[URL_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[URL_meter_Dim2]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=260
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+Dim_50=50
+Dim_51=51
+Dim_52=52
+Dim_53=53
+Dim_54=54
+Dim_55=55
+Dim_56=56
+Dim_57=57
+Dim_58=58
+Dim_59=59
+Dim_60=60
+Dim_61=61
+Dim_62=62
+Dim_63=63
+Dim_64=64
+Dim_65=65
+Dim_66=66
+Dim_67=67
+Dim_68=68
+Dim_69=69
+Dim_70=70
+Dim_71=71
+Dim_72=72
+Dim_73=73
+Dim_74=74
+Dim_75=75
+Dim_76=76
+Dim_77=77
+Dim_78=78
+Dim_79=79
+Dim_80=80
+Dim_81=81
+Dim_82=82
+Dim_83=83
+Dim_84=84
+Dim_85=85
+Dim_86=86
+Dim_87=87
+Dim_88=88
+Dim_89=89
+Dim_90=90
+Dim_91=91
+Dim_92=92
+Dim_93=93
+Dim_94=94
+Dim_95=95
+Dim_96=96
+Dim_97=97
+Dim_98=98
+Dim_99=99
+Dim_100=100
+Dim_101=101
+Dim_102=102
+Dim_103=103
+Dim_104=104
+Dim_105=105
+Dim_106=106
+Dim_107=107
+Dim_108=108
+Dim_109=109
+Dim_110=110
+Dim_111=111
+Dim_112=112
+Dim_113=113
+Dim_114=114
+Dim_115=115
+Dim_116=116
+Dim_117=117
+Dim_118=118
+Dim_119=119
+Dim_120=120
+Dim_121=121
+Dim_122=122
+Dim_123=123
+Dim_124=124
+Dim_125=125
+Dim_126=126
+Dim_127=127
+Dim_128=128
+Dim_129=129
+Dim_130=130
+Dim_131=131
+Dim_132=132
+Dim_133=133
+Dim_134=134
+Dim_135=135
+Dim_136=136
+Dim_137=137
+Dim_138=138
+Dim_139=139
+Dim_140=140
+Dim_141=141
+Dim_142=142
+Dim_143=143
+Dim_144=144
+Dim_145=145
+Dim_146=146
+Dim_147=147
+Dim_148=148
+Dim_149=149
+Dim_150=150
+Dim_151=151
+Dim_152=152
+Dim_153=153
+Dim_154=154
+Dim_155=155
+Dim_156=156
+Dim_157=157
+Dim_158=158
+Dim_159=159
+Dim_160=160
+Dim_161=161
+Dim_162=162
+Dim_163=163
+Dim_164=164
+Dim_165=165
+Dim_166=166
+Dim_167=167
+Dim_168=168
+Dim_169=169
+Dim_170=170
+Dim_171=171
+Dim_172=172
+Dim_173=173
+Dim_174=174
+Dim_175=175
+Dim_176=176
+Dim_177=177
+Dim_178=178
+Dim_179=179
+Dim_180=180
+Dim_181=181
+Dim_182=182
+Dim_183=183
+Dim_184=184
+Dim_185=185
+Dim_186=186
+Dim_187=187
+Dim_188=188
+Dim_189=189
+Dim_190=190
+Dim_191=191
+Dim_192=192
+Dim_193=193
+Dim_194=194
+Dim_195=195
+Dim_196=196
+Dim_197=197
+Dim_198=198
+Dim_199=199
+Dim_200=200
+Dim_201=201
+Dim_202=202
+Dim_203=203
+Dim_204=204
+Dim_205=205
+Dim_206=206
+Dim_207=207
+Dim_208=208
+Dim_209=209
+Dim_210=210
+Dim_211=211
+Dim_212=212
+Dim_213=213
+Dim_214=214
+Dim_215=215
+Dim_216=216
+Dim_217=217
+Dim_218=218
+Dim_219=219
+Dim_220=220
+Dim_221=221
+Dim_222=222
+Dim_223=223
+Dim_224=224
+Dim_225=225
+Dim_226=226
+Dim_227=227
+Dim_228=228
+Dim_229=229
+Dim_230=230
+Dim_231=231
+Dim_232=232
+Dim_233=233
+Dim_234=234
+Dim_235=235
+Dim_236=236
+Dim_237=237
+Dim_238=238
+Dim_239=239
+Dim_240=240
+Dim_241=241
+Dim_242=242
+Dim_243=243
+Dim_244=244
+Dim_245=245
+Dim_246=246
+Dim_247=247
+Dim_248=248
+Dim_249=249
+Dim_250=250
+Dim_251=251
+Dim_252=252
+Dim_253=253
+Dim_254=254
+Dim_255=255
+Dim_256=256
+Dim_257=257
+Dim_258=258
+Dim_259=259
+AsParent=1
+BasedOnTableName=
+
+[URL_meter_Dim3]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[URL_meter_Dim4]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[URL_meter_Dim5]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[URL_meter_Dim6]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+LikeMode=0
+
+[URL_meter_Dim7]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=URL_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[URL_meter_Dim8]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[URL_meter_Dim9]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[Table_17]
+FactTableName=VuserEvent_meter
+DimensionCount=10
+
+[VuserEvent_meter_Dim0]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[VuserEvent_meter_Dim1]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[VuserEvent_meter_Dim2]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[VuserEvent_meter_Dim3]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[VuserEvent_meter_Dim4]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[VuserEvent_meter_Dim5]
+InternalDimName=Vuser End Status Name
+Dimension=Vuser End Status Name
+EqualFlag=1
+DimensionTableName=VuserEndStatus
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=Error
+Dim_1=Failed
+Dim_2=Passed
+Dim_3=Stopped
+LikeMode=0
+
+[VuserEvent_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=VuserEvent_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[VuserEvent_meter_Dim7]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[VuserEvent_meter_Dim8]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[VuserEvent_meter_Dim9]
+InternalDimName=Vuser Status Name
+Dimension=Vuser Status Name
+EqualFlag=1
+DimensionTableName=VuserStatus
+NumValues=5
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=5
+Dim_0=Load
+Dim_1=Pause
+Dim_2=Quit
+Dim_3=Ready
+Dim_4=Run
+LikeMode=0
+
+[Table_18]
+FactTableName=WebEvent_meter
+DimensionCount=11
+
+[WebEvent_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=31
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=31
+Dim_0=1:BUFFERING
+Dim_1=1:DOWNLOAD
+Dim_2=Browse-Catalog
+Dim_3=Check-Accounts
+Dim_4=Client Current bps - In
+Dim_5=Client Current bps - Out
+Dim_6=Client Total Throughput - In
+Dim_7=Client Total Throughput - Out
+Dim_8=Connection Shutdowns
+Dim_9=Connections
+Dim_10=Download speed
+Dim_11=Error -27720
+Dim_12=Full-Process
+Dim_13=Hits
+Dim_14=HTTP_200
+Dim_15=HTTP_404
+Dim_16=HTTP_500
+Dim_17=Latency (msec)
+Dim_18=New Connections
+Dim_19=New Sessions
+Dim_20=Number of buffering video
+Dim_21=Packet Loss %
+Dim_22=Packet Loss Count
+Dim_23=Server Current bps - In
+Dim_24=Server Current bps - Out
+Dim_25=Server Total Throughput - In
+Dim_26=Server Total Throughput - Out
+Dim_27=Throughput
+Dim_28=Time to start(Can play)
+Dim_29=Total Packet Loss
+Dim_30=WAN Emulation
+LikeMode=0
+
+[WebEvent_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=14
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=14
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=Error
+Dim_3=lr_streaming_buffering
+Dim_4=lr_streaming_network
+Dim_5=lr_streaming_videos
+Dim_6=SSLs
+Dim_7=Transaction
+Dim_8=WAN_EMULATION_CLOUD_AVG_LATENCY
+Dim_9=WAN_EMULATION_CLOUD_PACKET_LOSS
+Dim_10=WAN_EMULATION_NIC_BPS
+Dim_11=WAN_EMULATION_NIC_TOTAL
+Dim_12=WANEmulation
+Dim_13=Web
+LikeMode=0
+
+[WebEvent_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=None
+LikeMode=0
+
+[WebEvent_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+LikeMode=0
+
+[WebEvent_meter_Dim4]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res.lrr
+LikeMode=0
+
+[WebEvent_meter_Dim5]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=24
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=24
+Dim_0=vugen_aos_web_html
+Dim_1=vugen_aos_web_html_1
+Dim_2=vugen_aos_web_html_1_1
+Dim_3=vugen_aos_web_html_1_2
+Dim_4=vugen_aos_web_html_2
+Dim_5=vugen_aos_web_html_2_1
+Dim_6=vugen_aos_web_html_2_2
+Dim_7=vugen_aos_web_html_3
+Dim_8=vugen_aos_web_html_3_1
+Dim_9=vugen_aos_web_html_3_2
+Dim_10=vugen_aos_web_html_4
+Dim_11=vugen_aos_web_html_5
+Dim_12=vugen-aos-web-html
+Dim_13=vugen-aos-web-html_1
+Dim_14=vugen-aos-web-html_1_1
+Dim_15=vugen-aos-web-html_1_2
+Dim_16=vugen-aos-web-html_2
+Dim_17=vugen-aos-web-html_2_1
+Dim_18=vugen-aos-web-html_2_2
+Dim_19=vugen-aos-web-html_3
+Dim_20=vugen-aos-web-html_3_1
+Dim_21=vugen-aos-web-html_3_2
+Dim_22=vugen-aos-web-html_4
+Dim_23=vugen-aos-web-html_5
+LikeMode=0
+
+[WebEvent_meter_Dim6]
+InternalDimName=Location name
+Dimension=Location name
+EqualFlag=1
+DimensionTableName=Shunra_Location
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=2.5G Busy
+Dim_1=3G Typical
+Dim_2=4G Good
+Dim_3=None
+LikeMode=0
+
+[WebEvent_meter_Dim7]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=12
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=12
+Dim_0=chicago
+Dim_1=chicago_nv1
+Dim_2=chicago_nv2
+Dim_3=denver
+Dim_4=denver_nv1
+Dim_5=denver_nv2
+Dim_6=seattle
+Dim_7=seattle_nv1
+Dim_8=seattle_nv2
+Dim_9=toronto
+Dim_10=toronto_nv1
+Dim_11=toronto_nv2
+LikeMode=0
+
+[WebEvent_meter_Dim8]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1#4-22#29#31 - 40
+Dim_1=Dummy2
+LikeMode=0
+
+[WebEvent_meter_Dim9]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=WebEvent_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=566.000000
+
+[WebEvent_meter_Dim10]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=WebEvent_meter
+NumValues=4
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=12
+Dim_0=1.000000
+Dim_1=105.000000
+Dim_2=HTTP_200
+Dim_3=1.000000
+Dim_4=1.000000
+Dim_5=HTTP_404
+Dim_6=1.000000
+Dim_7=1.000000
+Dim_8=HTTP_500
+Dim_9=964.000000
+Dim_10=5301602.000000
+Dim_11=Throughput
+
